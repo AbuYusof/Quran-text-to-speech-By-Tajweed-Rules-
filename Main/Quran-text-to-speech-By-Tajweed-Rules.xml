@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?><processors>
+<!--the code License by GNU General Public License is a free, copyleft license for
+software and other kinds of works.---->
+<!--verison.1.0 ---->
+<processor match="جُنْدٍ" replace=" جُووندٍ" regex="false" match_case="false"/>
+<processor match="اللَّه" replace="اْلْلَّاَّاْاْه" regex="false" match_case="false"/>
+<processor match="اللَّهِ_" replace="الْلَّاَّاهِ" regex="false" match_case="false"/>
+<processor match="اللَّهُ_" replace="الْلَّاَّاهُ" regex="false" match_case="false"/>
+<processor match="دًى" replace="دًا " regex="false" match_case="false"/>
+<processor match="لًا ۘ " replace="لا ۘ " regex="false" match_case="false"/>
+<processor match="ة_" replace="ت" regex="false" match_case="false"/>
+<processor match="!7" replace=" " regex="false" match_case="false"/>
+<processor match="!8" replace=" " regex="false" match_case="false"/>
+<processor match="!9" replace=" " regex="false" match_case="false"/>
+<processor match="!10" replace=" " regex="false" match_case="false"/>
+<processor match="!11" replace=" " regex="false" match_case="false"/>
+<processor match="!12" replace=" " regex="false" match_case="false"/>
+<processor match="!13" replace=" " regex="false" match_case="false"/>
+<processor match="!14" replace=" " regex="false" match_case="false"/>
+<processor match="!15" replace=" " regex="false" match_case="false"/>
+<processor match="!16" replace=" " regex="false" match_case="false"/>
+<processor match="!17" replace=" " regex="false" match_case="false"/>
+<processor match="!18" replace=" " regex="false" match_case="false"/>
+<processor match="!19" replace=" " regex="false" match_case="false"/>
+<processor match="!20" replace=" " regex="false" match_case="false"/>
+<!--Remove-Aya-Number-->
+<processor match="[0-9]" replace=" " regex="true" match_case="false"/>
+<!--Auto-Stop-recommended&necessary-->
+<processor match=" ۘ " replace=" ۘ &#10; ‏ " regex="false" match_case="false"/>
+<processor match="ۗ " replace="ۗ&#10; ‏ " regex="false" match_case="false"/>
+<processor match="َ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ِ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ُ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ً ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ٍ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ٌ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="َّ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ُّ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ِّ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ًّ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ٍّ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ٌّ ۗ" replace="ۗ" regex="false" match_case="false"/>
+<processor match="ً اۗ" replace="اۗ" regex="false" match_case="false"/>
+<processor match="َ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ِ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ُ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ً ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ٍ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ٌ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="َّ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ُّ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ِّ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ًّ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ٍّ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ٌّ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ً اۘ" replace="اۘ" regex="false" match_case="false"/>
+<processor match="ۜ " replace="ۜ&#10; ‏ " regex="false" match_case="false"/>
+<processor match="َ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ِ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ُ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ً ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ٍ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ٌ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="َّ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ُّ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ِّ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ًّ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ٍّ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ٌّ ۜ" replace="ۜ" regex="false" match_case="false"/>
+<processor match="ً اۜ" replace="اۜ" regex="false" match_case="false"/>
+<processor match="َ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ۛ " replace="ۛ&#10; ‏ " regex="false" match_case="false"/>
+<processor match="َ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ِ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ُ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ً ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ٍ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ٌ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="َّ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ُّ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ِّ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ًّ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ٍّ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ٌّ ۛ" replace="ۛ" regex="false" match_case="false"/>
+<processor match="ً اۛ" replace="اۛ" regex="false" match_case="false"/>
+<processor match="َ ۘ" replace="ۘ" regex="false" match_case="false"/>
+<processor match="ۚ " replace="" regex="false" match_case="false"/>
+<processor match="ۖ " replace="" regex="false" match_case="false"/>
+<processor match=" ۙ" replace="" regex="false" match_case="false"/>
+<!--General-->
+<processor match="جَنَّا" replace="جَننا" regex="false" match_case="false"/>
+<processor match="!1" replace="اللَّـٰاااه" regex="false" match_case="false"/>
+<processor match="أَنْفُ" replace="آمّْفُ" regex="false" match_case="false"/>
+<processor match="نْ لَ" replace="للَ" regex="false" match_case="false"/>
+<processor match="ون(" replace="ووون(" regex="false" match_case="false"/>
+<processor match="ذٍ يَ" replace="ذِييَ" regex="false" match_case="false"/>
+<processor match="ذٍ تُ" replace="ذِييتتُ" regex="false" match_case="false"/>
+<processor match="رًا يَ" replace="ررايييَ" regex="true" match_case="false"/>
+<processor match="رًّا يَ" replace="ررايييَ" regex="false" match_case="false"/>
+<processor match="كُفُوً" replace="كُفُووً" regex="false" match_case="false"/>
+<processor match="تٍ مِ" replace="تمممِ" regex="false" match_case="false"/>
+<processor match="لٍ وَ" replace="ليووَ" regex="false" match_case="false"/>
+<processor match="بٍ وَ" replace="بيووَ" regex="false" match_case="false"/>
+<processor match="بًّا فَ" replace="بّانففَ" regex="false" match_case="false"/>
+<processor match="مْ مِ" replace="مْمِ" regex="false" match_case="false"/>
+<processor match="تٍ مِ" replace="تييمِ" regex="false" match_case="false"/>
+<processor match="رًا رَ" replace="رًررَ" regex="false" match_case="false"/>
+<processor match="ئًا مَ" replace="ئًمممَ" regex="false" match_case="false"/>
+<processor match="نٌ مِ" replace="نٌمممِ" regex="false" match_case="false"/>
+<processor match="نًا يَ" replace="نًييَ" regex="false" match_case="false"/>
+<processor match="وُو_" replace="وُ" regex="false" match_case="false"/>
+<processor match="يَشَّقَّقُ" replace="يَششَّقَّقُ" regex="false" match_case="false"/>
+<processor match="+" replace="ذذ" regex="false" match_case="false"/>
+<processor match="مَّ اتَّ" replace="مَّتَّ" regex="false" match_case="true"/>
+<processor match="مْ مُ" replace="مممم" regex="false" match_case="true"/>
+<processor match="نِ اتَّ" replace="نيتَّ" regex="false" match_case="false"/>
+<processor match="جَهَنَّ" replace="جَهَننَ" regex="false" match_case="false"/>
+<processor match="مُ ابْ" replace="مُبْب" regex="false" match_case="false"/>
+<processor match="يٍّ لَ" replace="يٍّيلَ" regex="false" match_case="false"/>
+<processor match="هًا وَ" replace="هًووَ" regex="false" match_case="false"/>
+<processor match="ا الصَّ" replace="صْصَّ" regex="false" match_case="false"/>
+<processor match="يَنْقَ" replace="يَنننننقَ" regex="false" match_case="false"/>
+<processor match="وَّ" replace="ووَ" regex="false" match_case="false"/>
+<processor match="يَّنَّ" replace="ييَننَ" regex="false" match_case="false"/>
+<processor match="بًا(" replace="با(" regex="false" match_case="false"/>
+<processor match="مًا(" replace="ما(" regex="false" match_case="false"/>
+<processor match="دًا(" replace="دا(" regex="false" match_case="false"/>
+<processor match="نًا(" replace="نا(" regex="false" match_case="false"/>
+<processor match="لًا(" replace="لا(" regex="false" match_case="false"/>
+<processor match="وُ_" replace="وُو" regex="false" match_case="false"/>
+<!--Al-Galgala---->
+<processor match="قَ(" replace="قّْ(" regex="false" match_case="false"/>
+<processor match="قُ(" replace="قّْ(" regex="false" match_case="false"/>
+<processor match="قِ(" replace="قّْ(" regex="false" match_case="false"/>
+<processor match="قً(" replace="قّْ(" regex="false" match_case="false"/>
+<processor match="قٍ(" replace="قّْ(" regex="false" match_case="false"/>
+<processor match="قٌ(" replace="قّْ(" regex="false" match_case="false"/>
+<processor match="قْ" replace="قّْ" regex="false" match_case="false"/>
+<processor match="طَ(" replace="طّْ(" regex="false" match_case="false"/>
+<processor match="طُ(" replace="طّْ(" regex="false" match_case="false"/>
+<processor match="طِ(" replace="طّْ(" regex="false" match_case="false"/>
+<processor match="طً(" replace="طّْ(" regex="false" match_case="false"/>
+<processor match="طٍ(" replace="طّْ(" regex="false" match_case="false"/>
+<processor match="طٌ(" replace="طّْ(" regex="false" match_case="false"/>
+<processor match="طْ" replace="طّْ" regex="false" match_case="false"/>
+<processor match="ططئت" replace="طْتَ" regex="false" match_case="false"/>
+<processor match="بَ(" replace="بّْ(" regex="false" match_case="false"/>
+<processor match="بُ(" replace="بّْ(" regex="false" match_case="false"/>
+<processor match="بِ(" replace="بّْ(" regex="false" match_case="false"/>
+<processor match="بً(" replace="بّْ(" regex="false" match_case="false"/>
+<processor match="بٍ(" replace="بّْ(" regex="false" match_case="false"/>
+<processor match="بٌ(" replace="بّْ(" regex="false" match_case="false"/>
+<processor match="بْ" replace="بّْ" regex="false" match_case="false"/>
+<processor match="جَ(" replace="جّْ(" regex="false" match_case="false"/>
+<processor match="جُ(" replace="جّْ(" regex="false" match_case="false"/>
+<processor match="جِ(" replace="جّْ(" regex="false" match_case="false"/>
+<processor match="جً(" replace="جّْ(" regex="false" match_case="false"/>
+<processor match="جٍ(" replace="جّْ(" regex="false" match_case="false"/>
+<processor match="جٌ(" replace="جّْ(" regex="false" match_case="false"/>
+<processor match="جْ_" replace="جئْ" regex="false" match_case="true"/>
+<processor match="دْ(" replace="دّْ(" regex="false" match_case="false"/>
+<!--Sucoon-Stop-End-Aya-Number------>
+<processor match="دُ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دِ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دً(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دٍ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دٌ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دَ(" replace="دّْ(" regex="false" match_case="false"/>
+<processor match="َ(" replace="(" regex="false" match_case="false"/>
+<processor match="ٌ(" replace="(" regex="false" match_case="false"/>
+<processor match="ً(" replace="(" regex="false" match_case="false"/>
+<processor match="ٍ(" replace="(" regex="false" match_case="false"/>
+<processor match="ٌ(" replace="(" regex="false" match_case="false"/>
+<processor match="ًا(" replace="ا(" regex="false" match_case="false"/>
+<processor match="ِ(" replace="(" regex="false" match_case="false"/>
+<processor match="ًا(" replace="ا(" regex="false" match_case="false"/>
+<processor match="ٍا(" replace="ا(" regex="false" match_case="false"/>
+<processor match="ٌا(" replace="ا(" regex="false" match_case="false"/>
+<!--Al-Edghaam---->
+<processor match="نْ يَ" replace="يَّ" regex="false" match_case="false"/>
+<processor match="نْ يُ" replace="ييُ" regex="false" match_case="false"/>
+<processor match="نْ يِ" replace="ييِ" regex="false" match_case="false"/>
+<processor match="نْ يً" replace="ييً" regex="false" match_case="false"/>
+<processor match="نْ يٍ" replace="ييٍ" regex="false" match_case="false"/>
+<processor match="نْ يٌ" replace="ييٌ" regex="false" match_case="false"/>
+<processor match="نْ يَّ" replace="ييَّ" regex="false" match_case="false"/>
+<processor match="نْ يُّ" replace="ييُّ" regex="false" match_case="false"/>
+<processor match="نْ يِّ" replace="ييِّ" regex="false" match_case="false"/>
+<processor match="نْ يًّ" replace="ييًّ" regex="false" match_case="false"/>
+<processor match="نْ يٍّ" replace="ييٍّ" regex="false" match_case="false"/>
+<processor match="نْ يٌّ" replace="ييٌّ" regex="false" match_case="false"/>
+<processor match="نْيَ" replace="مّْيَ" regex="false" match_case="false"/>
+<processor match="نْيُ" replace="ييُ" regex="false" match_case="false"/>
+<processor match="نْيِ" replace="ييِ" regex="false" match_case="false"/>
+<processor match="نْيً" replace="ييً" regex="false" match_case="false"/>
+<processor match="نْيٍ" replace="ييٍ" regex="false" match_case="false"/>
+<processor match="نْيٌ" replace="ييٌ" regex="false" match_case="false"/>
+<processor match="نْيَّ" replace="ييَّ" regex="false" match_case="false"/>
+<processor match="نْيُّ" replace="ييُّ" regex="false" match_case="false"/>
+<processor match="نْيِّ" replace="ييِّ" regex="false" match_case="false"/>
+<processor match="نْيًّ" replace="ييًّ" regex="false" match_case="false"/>
+<processor match="نْيٍّ" replace="ييٍّ" regex="false" match_case="false"/>
+<processor match="نْيٌّ" replace="ييٌّ" regex="false" match_case="false"/>
+<processor match="نْ رَ" replace="ررَ" regex="false" match_case="false"/>
+<processor match="نْ رُ" replace="ررُ" regex="false" match_case="false"/>
+<processor match="نْ رِ" replace="ررِ" regex="false" match_case="false"/>
+<processor match="نْ رً" replace="ررً" regex="false" match_case="false"/>
+<processor match="نْ رٍ" replace="ررٍ" regex="false" match_case="false"/>
+<processor match="نْ رٌ" replace="ررٌ" regex="false" match_case="false"/>
+<processor match="نْ رَّ" replace="ررَّ" regex="false" match_case="false"/>
+<processor match="نْ رُّ" replace="ررُّ" regex="false" match_case="false"/>
+<processor match="نْ رِّ" replace="ررِّ" regex="false" match_case="false"/>
+<processor match="نْ رًّ" replace="ررًّ" regex="false" match_case="false"/>
+<processor match="نْ رٍّ" replace="ررٍّ" regex="false" match_case="false"/>
+<processor match="نْ رٌّ" replace="ررٌّ" regex="false" match_case="false"/>
+<processor match="نْرَ" replace="ررَ" regex="false" match_case="false"/>
+<processor match="نْرُ" replace="ررُ" regex="false" match_case="false"/>
+<processor match="نْرِ" replace="ررِ" regex="false" match_case="false"/>
+<processor match="نْرً" replace="ررً" regex="false" match_case="false"/>
+<processor match="نْرٍ" replace="ررٍ" regex="false" match_case="false"/>
+<processor match="نْرٌ" replace="ررٌ" regex="false" match_case="false"/>
+<processor match="نْرَّ" replace="ررَّ" regex="false" match_case="false"/>
+<processor match="نْرُّ" replace="ررُّ" regex="false" match_case="false"/>
+<processor match="نْرِّ" replace="ررِّ" regex="false" match_case="false"/>
+<processor match="نْرًّ" replace="ررًّ" regex="false" match_case="false"/>
+<processor match="نْرٍّ" replace="ررٍّ" regex="false" match_case="false"/>
+<processor match="نْرٌّ" replace="ررٌّ" regex="false" match_case="false"/>
+<processor match="نْ مَ" replace="ممَ" regex="false" match_case="false"/>
+<processor match="نْ مُ" replace="ممُ" regex="false" match_case="false"/>
+<processor match="نْ مِ" replace="ممِ" regex="false" match_case="false"/>
+<processor match="نْ مً" replace="ممً" regex="false" match_case="false"/>
+<processor match="نْ مٍ" replace="ممٍ" regex="false" match_case="false"/>
+<processor match="نْ مٌ" replace="ممٌ" regex="false" match_case="false"/>
+<processor match="نْ مَّ" replace="ممَّ" regex="false" match_case="false"/>
+<processor match="نْ مُّ" replace="ممُّ" regex="false" match_case="false"/>
+<processor match="نْ مِّ" replace="ممِّ" regex="false" match_case="false"/>
+<processor match="نْ مًّ" replace="ممًّ" regex="false" match_case="false"/>
+<processor match="نْ مٍّ" replace="ممٍّ" regex="false" match_case="false"/>
+<processor match="نْ مٌّ" replace="ممٌّ" regex="false" match_case="false"/>
+<processor match="نْمَ" replace="ممَ" regex="false" match_case="false"/>
+<processor match="نْمُ" replace="ممُ" regex="false" match_case="false"/>
+<processor match="نْمِ" replace="ممِ" regex="false" match_case="false"/>
+<processor match="نْمً" replace="ممً" regex="false" match_case="false"/>
+<processor match="نْمٍ" replace="ممٍ" regex="false" match_case="false"/>
+<processor match="نْمٌ" replace="ممٌ" regex="false" match_case="false"/>
+<processor match="نْمَّ" replace="ممَّ" regex="false" match_case="false"/>
+<processor match="نْمُّ" replace="ممُّ" regex="false" match_case="false"/>
+<processor match="نْمِّ" replace="ممِّ" regex="false" match_case="false"/>
+<processor match="نْمًّ" replace="ممًّ" regex="false" match_case="false"/>
+<processor match="نْمٍّ" replace="ممٍّ" regex="false" match_case="false"/>
+<processor match="نْمٌّ" replace="ممٌّ" regex="false" match_case="false"/>
+<processor match="نْ لُ" replace="للُ" regex="false" match_case="false"/>
+<processor match="نْ لِ" replace="للِ" regex="false" match_case="false"/>
+<processor match="نْ لً" replace="للً" regex="false" match_case="false"/>
+<processor match="نْ لٍ" replace="للٍ" regex="false" match_case="false"/>
+<processor match="نْ لٌ" replace="للٌ" regex="false" match_case="false"/>
+<processor match="نْ لَّ" replace="للَّ" regex="false" match_case="false"/>
+<processor match="نْ لُّ" replace="للُّ" regex="false" match_case="false"/>
+<processor match="نْ لِّ" replace="للِّ" regex="false" match_case="false"/>
+<processor match="نْ لًّ" replace="للًّ" regex="false" match_case="false"/>
+<processor match="نْ لٍّ" replace="للٍّ" regex="false" match_case="false"/>
+<processor match="نْ لٌّ" replace="للٌّ" regex="false" match_case="false"/>
+<processor match="نْلَ" replace="للَ" regex="false" match_case="false"/>
+<processor match="نْلُ" replace="للُ" regex="false" match_case="false"/>
+<processor match="نْلِ" replace="للِ" regex="false" match_case="false"/>
+<processor match="نْلً" replace="للً" regex="false" match_case="false"/>
+<processor match="نْلٍ" replace="للٍ" regex="false" match_case="false"/>
+<processor match="نْلٌ" replace="للٌ" regex="false" match_case="false"/>
+<processor match="نْلَّ" replace="للَّ" regex="false" match_case="false"/>
+<processor match="نْلُّ" replace="للُّ" regex="false" match_case="false"/>
+<processor match="نْلِّ" replace="للِّ" regex="false" match_case="false"/>
+<processor match="نْلًّ" replace="للًّ" regex="false" match_case="false"/>
+<processor match="نْلٍّ" replace="للٍّ" regex="false" match_case="false"/>
+<processor match="نْلٌّ" replace="للٌّ" regex="false" match_case="false"/>
+<processor match="نْ وَ" replace="ووَ" regex="false" match_case="false"/>
+<processor match="نْ وُ" replace="ووُ" regex="false" match_case="false"/>
+<processor match="نْ وِ" replace="ووِ" regex="false" match_case="false"/>
+<processor match="نْ وً" replace="ووً" regex="false" match_case="false"/>
+<processor match="نْ وٍ" replace="ووٍ" regex="false" match_case="false"/>
+<processor match="نْ وٌ" replace="ووٌ" regex="false" match_case="false"/>
+<processor match="نْ وَّ" replace="ووَّ" regex="false" match_case="false"/>
+<processor match="نْ وُّ" replace="ووُّ" regex="false" match_case="false"/>
+<processor match="نْ وِّ" replace="ووِّ" regex="false" match_case="false"/>
+<processor match="نْ وًّ" replace="ووًّ" regex="false" match_case="false"/>
+<processor match="نْ وٍّ" replace="ووٍّ" regex="false" match_case="false"/>
+<processor match="نْ وٌّ" replace="ووٌّ" regex="false" match_case="false"/>
+<processor match="نْوَ" replace="ووَ" regex="false" match_case="false"/>
+<processor match="نْوُ" replace="ووُ" regex="false" match_case="false"/>
+<processor match="نْوِ" replace="ووِ" regex="false" match_case="false"/>
+<processor match="نْوً" replace="ووً" regex="false" match_case="false"/>
+<processor match="نْوٍ" replace="ووٍ" regex="false" match_case="false"/>
+<processor match="نْوٌ" replace="ووٌ" regex="false" match_case="false"/>
+<processor match="نْوَّ" replace="ووَّ" regex="false" match_case="false"/>
+<processor match="نْوُّ" replace="ووُّ" regex="false" match_case="false"/>
+<processor match="نْوِّ" replace="ووِّ" regex="false" match_case="false"/>
+<processor match="نْوًّ" replace="ووًّ" regex="false" match_case="false"/>
+<processor match="نْوٍّ" replace="ووٍّ" regex="false" match_case="false"/>
+<processor match="نْوٌّ" replace="ووٌّ" regex="false" match_case="false"/>
+<processor match="نْ نَ" replace="ننَ" regex="false" match_case="false"/>
+<processor match="نْ نُ" replace="ننُ" regex="false" match_case="false"/>
+<processor match="نْ نِ" replace="ننِ" regex="false" match_case="false"/>
+<processor match="نْ نً" replace="ننً" regex="false" match_case="false"/>
+<processor match="نْ نٍ" replace="ننٍ" regex="false" match_case="false"/>
+<processor match="نْ نٌ" replace="ننٌ" regex="false" match_case="false"/>
+<processor match="نْ نَّ" replace="ننَّ" regex="false" match_case="false"/>
+<processor match="نْ نُّ" replace="ننُّ" regex="false" match_case="false"/>
+<processor match="نْ نِّ" replace="ننِّ" regex="false" match_case="false"/>
+<processor match="نْ نًّ" replace="ننًّ" regex="false" match_case="false"/>
+<processor match="نْ نٍّ" replace="ننٍّ" regex="false" match_case="false"/>
+<processor match="نْ نٌّ" replace="ننٌّ" regex="false" match_case="false"/>
+<processor match="نْنَ" replace="ننَ" regex="false" match_case="false"/>
+<processor match="نْنُ" replace="ننُ" regex="false" match_case="false"/>
+<processor match="نْنِ" replace="ننِ" regex="false" match_case="false"/>
+<processor match="نْنً" replace="ننً" regex="false" match_case="false"/>
+<processor match="نْنٍ" replace="ننٍ" regex="false" match_case="false"/>
+<processor match="نْنٌ" replace="ننٌ" regex="false" match_case="false"/>
+<processor match="نْنَّ" replace="ننَّ" regex="false" match_case="false"/>
+<processor match="نْنُّ" replace="ننُّ" regex="false" match_case="false"/>
+<processor match="نْنِّ" replace="ننِّ" regex="false" match_case="false"/>
+<processor match="نْنًّ" replace="ننًّ" regex="false" match_case="false"/>
+<processor match="نْنٍّ" replace="ننٍّ" regex="false" match_case="false"/>
+<processor match="نْنٌّ" replace="ننٌّ" regex="false" match_case="false"/>
+<processor match="ً يَ" replace="ًيَّ" regex="false" match_case="false"/>
+<processor match="ً يُ" replace="ً يُ" regex="false" match_case="false"/>
+<processor match="ً يِ" replace="ً يِ" regex="false" match_case="false"/>
+<processor match="ٍ يَ" replace="ِّييَ" regex="false" match_case="false"/>
+<processor match="ٍ يُ" replace="ٍيُ" regex="false" match_case="false"/>
+<processor match="ٍ يِ" replace="ٍِّ يّْيِ" regex="false" match_case="false"/>
+<processor match="ٌ يَ" replace="ُّييَ" regex="false" match_case="false"/>
+<processor match="ٌ يُ" replace="ُّييُ" regex="false" match_case="false"/>
+<processor match="ٌ يِ" replace="ُّييِ" regex="false" match_case="false"/>
+<processor match="ًا يَ" replace="َّييَ" regex="false" match_case="false"/>
+<processor match="ًا يُ" replace="َّييُ" regex="false" match_case="false"/>
+<processor match="ًا يِ" replace="َّييِ" regex="false" match_case="false"/>
+<processor match="ٍا يَ" replace="ِّييَ" regex="false" match_case="false"/>
+<processor match="ٍا يُ" replace="ِّييُ" regex="false" match_case="false"/>
+<processor match="ٍا يِ" replace="ِّييِ" regex="false" match_case="false"/>
+<processor match="ٌا يَ" replace="ُّييَ" regex="false" match_case="false"/>
+<processor match="ٌا يُ" replace="ُّييُ" regex="false" match_case="false"/>
+<processor match="ٌا يِ" replace="ُّييِ" regex="false" match_case="false"/>
+<processor match="ً رَ" replace="َّررَ" regex="false" match_case="false"/>
+<processor match="ً رُ" replace="َّررُ" regex="false" match_case="false"/>
+<processor match="ً رِ" replace="َّررِ" regex="false" match_case="false"/>
+<processor match="ٍ رَ" replace="ِّررَ" regex="false" match_case="false"/>
+<processor match="ٍ رُ" replace="ِّررُ" regex="false" match_case="false"/>
+<processor match="ٍ رِ" replace="ِّررِ" regex="false" match_case="false"/>
+<processor match="ٌ رَ" replace="ُّررَ" regex="false" match_case="false"/>
+<processor match="ٌ رُ" replace="ُّررُ" regex="false" match_case="false"/>
+<processor match="ٌ رِ" replace="ُّررِ" regex="false" match_case="false"/>
+<processor match="ًا رَ" replace="َّررَ" regex="false" match_case="false"/>
+<processor match="ًا رُ" replace="َّررُ" regex="false" match_case="false"/>
+<processor match="ًا رِ" replace="َّررِ" regex="false" match_case="false"/>
+<processor match="ٍا رَ" replace="ِّررَ" regex="false" match_case="false"/>
+<processor match="ٍا رُ" replace="ِّررُ" regex="false" match_case="false"/>
+<processor match="ٍا رِ" replace="ِّررِ" regex="false" match_case="false"/>
+<processor match="ٌا رَ" replace="ُّررَ" regex="false" match_case="false"/>
+<processor match="ٌا رُ" replace="ُّررُ" regex="false" match_case="false"/>
+<processor match="ٌا رِ" replace="ُّررِ" regex="false" match_case="false"/>
+<processor match="ً مَ" replace="َّممَ" regex="false" match_case="false"/>
+<processor match="ً مُ" replace="َّممُ" regex="false" match_case="false"/>
+<processor match="ً مِ" replace="َّممِ" regex="false" match_case="false"/>
+<processor match="ٍ مَ" replace="ِّممَ" regex="false" match_case="false"/>
+<processor match="ٍ مُ" replace="ِّممُ" regex="false" match_case="false"/>
+<processor match="ٍ مِ" replace="ِّممِ" regex="false" match_case="false"/>
+<processor match="ٌ مَ" replace="ُّممَ" regex="false" match_case="false"/>
+<processor match="ٌ مُ" replace="ُمّْمُ" regex="false" match_case="false"/>
+<processor match="ٌ مِ" replace="ُّممِ" regex="false" match_case="false"/>
+<processor match="ًا مَ" replace="َّممَ" regex="false" match_case="false"/>
+<processor match="ًا مُ" replace="َّممُ" regex="false" match_case="false"/>
+<processor match="ًا مِ" replace="َّممِ" regex="false" match_case="false"/>
+<processor match="ٍا مَ" replace="ِّممَ" regex="false" match_case="false"/>
+<processor match="ٍا مُ" replace="ِّممُ" regex="false" match_case="false"/>
+<processor match="ٍا مِ" replace="ِّممِ" regex="false" match_case="false"/>
+<processor match="ٌا مَ" replace="ُّممَ" regex="false" match_case="false"/>
+<processor match="ٌا مُ" replace="ُّممُ" regex="false" match_case="false"/>
+<processor match="ٌا مِ" replace="ُّممِ" regex="false" match_case="false"/>
+<processor match="ً لَ" replace="َّللَ" regex="false" match_case="false"/>
+<processor match="ً لُ" replace="َّللُ" regex="false" match_case="false"/>
+<processor match="ً لِ" replace="َّللِ" regex="false" match_case="false"/>
+<processor match="ٍ لَ" replace="ِّللَ" regex="false" match_case="false"/>
+<processor match="ٍ لُ" replace="ِّللُ" regex="false" match_case="false"/>
+<processor match="ٍ لِ" replace="ِّللِ" regex="false" match_case="false"/>
+<processor match="ٌ لَ" replace="ُّللَ" regex="false" match_case="false"/>
+<processor match="ٌ لُ" replace="ُّللُ" regex="false" match_case="false"/>
+<processor match="ٌ لِ" replace="ُّللِ" regex="false" match_case="false"/>
+<processor match="ًا لَ" replace="َّللَ" regex="false" match_case="false"/>
+<processor match="ًا لُ" replace="َّللُ" regex="false" match_case="false"/>
+<processor match="ًا لِ" replace="َّللِ" regex="false" match_case="false"/>
+<processor match="ٍا لَ" replace="ِّللَ" regex="false" match_case="false"/>
+<processor match="ٍا لُ" replace="ِّللُ" regex="false" match_case="false"/>
+<processor match="ٍا لِ" replace="ِّللِ" regex="false" match_case="false"/>
+<processor match="ٌا لَ" replace="ُّللَ" regex="false" match_case="false"/>
+<processor match="ٌا لُ" replace="ُّللُ" regex="false" match_case="false"/>
+<processor match="ٌا لِ" replace="ُّللِ" regex="false" match_case="false"/>
+<processor match="ً وَ" replace="َّوَّ" regex="false" match_case="false"/>
+<processor match="ً وُ" replace="َّوُّ" regex="false" match_case="false"/>
+<processor match="ً وِ" replace="َّوِّ" regex="false" match_case="false"/>
+<processor match="ٍ وَ" replace="ِّوَّ" regex="false" match_case="false"/>
+<processor match="ٍ وُ" replace="ِّوٌُ" regex="false" match_case="false"/>
+<processor match="ٍ وِ" replace="ِّوِّ" regex="false" match_case="false"/>
+<processor match="ٌ وَ" replace="ُّوَّ" regex="false" match_case="false"/>
+<processor match="ٌ وُ" replace="ُّوُّ" regex="false" match_case="false"/>
+<processor match="ٌ وِ" replace="ُّوِّ" regex="false" match_case="false"/>
+<processor match="ًا وَ" replace="َّوَّ" regex="false" match_case="false"/>
+<processor match="ًا وُ" replace="َّوُّ" regex="false" match_case="false"/>
+<processor match="ًا وِ" replace="َّوِّ" regex="false" match_case="false"/>
+<processor match="ٍا وَ" replace="ِّوَّ" regex="false" match_case="false"/>
+<processor match="ٍا وُ" replace="ِّوُّ" regex="false" match_case="false"/>
+<processor match="ٍا وِ" replace="ِّوِّ" regex="false" match_case="false"/>
+<processor match="ٌا وَ" replace="ُّوَّ" regex="false" match_case="false"/>
+<processor match="ٌا وُ" replace="ُّوُّ" regex="false" match_case="false"/>
+<processor match="ٌا وِ" replace="ُّوِّ" regex="false" match_case="false"/>
+<processor match="ً نَ" replace="َّننَ" regex="false" match_case="false"/>
+<processor match="ً نُ" replace="َّننُ" regex="false" match_case="false"/>
+<processor match="ً نِ" replace="َّننِ" regex="false" match_case="false"/>
+<processor match="ٍ نَ" replace="ِّننَ" regex="false" match_case="false"/>
+<processor match="ٍ نُ" replace="ِّننُ" regex="false" match_case="false"/>
+<processor match="ٍ نِ" replace="ِّننِ" regex="false" match_case="false"/>
+<processor match="ٌ نَ" replace="ُّننَ" regex="false" match_case="false"/>
+<processor match="ٌ نُ" replace="ُّننُ" regex="false" match_case="false"/>
+<processor match="ٌ نِ" replace="ُّننِ" regex="false" match_case="false"/>
+<processor match="ًا نَ" replace="َّننَ" regex="false" match_case="false"/>
+<processor match="ًا نُ" replace="َّننُ" regex="false" match_case="false"/>
+<processor match="ًا نِ" replace="َّننِ" regex="false" match_case="false"/>
+<processor match="ٍا نَ" replace="ِّننَ" regex="false" match_case="false"/>
+<processor match="ٍا نُ" replace="ِّننُ" regex="false" match_case="false"/>
+<processor match="ٍا نِ" replace="ِّننِ" regex="false" match_case="false"/>
+<processor match="ٌا نَ" replace="ُّننَ" regex="false" match_case="false"/>
+<processor match="ٌا نُ" replace="ُّننُ" regex="false" match_case="false"/>
+<processor match="ٌا نِ" replace="ُّننِ" regex="false" match_case="false"/>
+<!--Al-Ekhfaa---->
+<processor match="نْ صَ" replace="مّْصَ" regex="false" match_case="false"/>
+<processor match="نْ صُ" replace="مّْصُ" regex="false" match_case="false"/>
+<processor match="نْ صِ" replace="مّْصِ" regex="false" match_case="false"/>
+<processor match="نْ صً" replace="مّْصً" regex="false" match_case="false"/>
+<processor match="نْ صٍ" replace="مّْصٍ" regex="false" match_case="false"/>
+<processor match="نْ صٌ" replace="مّْصٌ" regex="false" match_case="false"/>
+<processor match="نْ صَّ" replace="مّْصَّ" regex="false" match_case="false"/>
+<processor match="نْ صُّ" replace="مّْصُّ" regex="false" match_case="false"/>
+<processor match="نْ صِّ" replace="مّْصِّ" regex="false" match_case="false"/>
+<processor match="نْ صًّ" replace="مّْصًّ" regex="false" match_case="false"/>
+<processor match="نْ صٍّ" replace="مّْصٍّ" regex="false" match_case="false"/>
+<processor match="نْ صٌّ" replace="مّْصٌّ" regex="false" match_case="false"/>
+<processor match="نْصَ" replace="مّْصَ" regex="false" match_case="false"/>
+<processor match="نْصُ" replace="مّْصُ" regex="false" match_case="false"/>
+<processor match="نْصِ" replace="مّْصِ" regex="false" match_case="false"/>
+<processor match="نْصً" replace="مّْصً" regex="false" match_case="false"/>
+<processor match="نْصٍ" replace="مّْصٍ" regex="false" match_case="false"/>
+<processor match="نْصٌ" replace="مّْصٌ" regex="false" match_case="false"/>
+<processor match="نْصَّ" replace="مّْصَّ" regex="false" match_case="false"/>
+<processor match="نْصُّ" replace="مّْصُّ" regex="false" match_case="false"/>
+<processor match="نْصِّ" replace="مّْصِّ" regex="false" match_case="false"/>
+<processor match="نْصًّ" replace="مّْصًّ" regex="false" match_case="false"/>
+<processor match="نْصٍّ" replace="مّْصٍّ" regex="false" match_case="false"/>
+<processor match="نْصٌّ" replace="مّْصٌّ" regex="false" match_case="false"/>
+<processor match="نْ ذَ" replace="مّْذَ" regex="false" match_case="false"/>
+<processor match="نْ ذُ" replace="مّْذُ" regex="false" match_case="false"/>
+<processor match="نْ ذِ" replace="مّْذِ" regex="false" match_case="false"/>
+<processor match="نْ ذً" replace="مّْذً" regex="false" match_case="false"/>
+<processor match="نْ ذٍ" replace="مّْذٍ" regex="false" match_case="false"/>
+<processor match="نْ ذٌ" replace="مّْذٌ" regex="false" match_case="false"/>
+<processor match="نْ ذَّ" replace="مّْذَّ" regex="false" match_case="false"/>
+<processor match="نْ ذُّ" replace="مّْذُّ" regex="false" match_case="false"/>
+<processor match="نْ ذِّ" replace="مّْذِّ" regex="false" match_case="false"/>
+<processor match="نْ ذًّ" replace="مّْذًّ" regex="false" match_case="false"/>
+<processor match="نْ ذٍّ" replace="مّْذٍّ" regex="false" match_case="false"/>
+<processor match="نْ ذٌّ" replace="مّْذٌّ" regex="false" match_case="false"/>
+<processor match="نْذَ" replace="مّْذَ" regex="false" match_case="false"/>
+<processor match="نْذُ" replace="مّْذُ" regex="false" match_case="false"/>
+<processor match="نْذِ" replace="مّْذِ" regex="false" match_case="false"/>
+<processor match="نْذً" replace="مّْذً" regex="false" match_case="false"/>
+<processor match="نْذٍ" replace="مّْذٍ" regex="false" match_case="false"/>
+<processor match="نْذٌ" replace="مّْذٌ" regex="false" match_case="false"/>
+<processor match="نْذَّ" replace="مّْذَّ" regex="false" match_case="false"/>
+<processor match="نْذُّ" replace="مّْذُّ" regex="false" match_case="false"/>
+<processor match="نْذِّ" replace="مّْذِّ" regex="false" match_case="false"/>
+<processor match="نْذًّ" replace="مّْذًّ" regex="false" match_case="false"/>
+<processor match="نْذٍّ" replace="مّْذٍّ" regex="false" match_case="false"/>
+<processor match="نْذٌّ" replace="مّْذٌّ" regex="false" match_case="false"/>
+<processor match="نْ ثَ" replace="مّْثَ" regex="false" match_case="false"/>
+<processor match="نْ ثُ" replace="ىثُ" regex="false" match_case="false"/>
+<processor match="نْ ثِ" replace="مّْثثِ" regex="false" match_case="false"/>
+<processor match="نْ ثً" replace="مّْثثً" regex="false" match_case="false"/>
+<processor match="نْ ثٍ" replace="مّْثثٍ" regex="false" match_case="false"/>
+<processor match="نْ ثٌ" replace="مّْثثٌ" regex="false" match_case="false"/>
+<processor match="نْ ثَّ" replace="مّْثثَّ" regex="false" match_case="false"/>
+<processor match="نْ ثُّ" replace="مّْثثُّ" regex="false" match_case="false"/>
+<processor match="نْ ثِّ" replace="مّْثثِّ" regex="false" match_case="false"/>
+<processor match="نْ ثًّ" replace="مّْثثًّ" regex="false" match_case="false"/>
+<processor match="نْ ثٍّ" replace="مّْثثٍّ" regex="false" match_case="false"/>
+<processor match="نْ ثٌّ" replace="مّْثثٌّ" regex="false" match_case="false"/>
+<processor match="نْثَ" replace="مّْثَ" regex="false" match_case="false"/>
+<processor match="نْثُ" replace="مّْثثُ" regex="false" match_case="false"/>
+<processor match="نْثِ" replace="مّْثثِ" regex="false" match_case="false"/>
+<processor match="نْثً" replace="مّْثثً" regex="false" match_case="false"/>
+<processor match="نْثٍ" replace="مّْثثٍ" regex="false" match_case="false"/>
+<processor match="نْثٌ" replace="مّْثثٌ" regex="false" match_case="false"/>
+<processor match="نْثَّ" replace="مّْثثَّ" regex="false" match_case="false"/>
+<processor match="نْثُّ" replace="مّْثثُّ" regex="false" match_case="false"/>
+<processor match="نْثِّ" replace="مّْثثِّ" regex="false" match_case="false"/>
+<processor match="نْثًّ" replace="مّْثثًّ" regex="false" match_case="false"/>
+<processor match="نْثٍّ" replace="مّْثثٍّ" regex="false" match_case="false"/>
+<processor match="نْثٌّ" replace="مّْثثٌّ" regex="false" match_case="false"/>
+<processor match="نْ كَ" replace="مّْكَ" regex="false" match_case="false"/>
+<processor match="نْ كُ" replace="مّْكُ" regex="false" match_case="false"/>
+<processor match="نْ كِ" replace="مّْكِ" regex="false" match_case="false"/>
+<processor match="نْ كً" replace="مّْكً" regex="false" match_case="false"/>
+<processor match="نْ كٍ" replace="مّْكٍ" regex="false" match_case="false"/>
+<processor match="نْ كٌ" replace="مّْكٌ" regex="false" match_case="false"/>
+<processor match="نْ كَّ" replace="مّْكَّ" regex="false" match_case="false"/>
+<processor match="نْ كُّ" replace="مّْكُّ" regex="false" match_case="false"/>
+<processor match="نْ كِّ" replace="مّْكِّ" regex="false" match_case="false"/>
+<processor match="نْ كًّ" replace="مّْكًّ" regex="false" match_case="false"/>
+<processor match="نْ كٍّ" replace="مّْكٍّ" regex="false" match_case="false"/>
+<processor match="نْ كٌّ" replace="مّْكٌّ" regex="false" match_case="false"/>
+<processor match="نْكَ" replace="مّْكَ" regex="false" match_case="false"/>
+<processor match="نْكُ" replace="مّْكُ" regex="false" match_case="false"/>
+<processor match="نْكِ" replace="مّْكِ" regex="false" match_case="false"/>
+<processor match="نْكً" replace="مّْكً" regex="false" match_case="false"/>
+<processor match="نْكٍ" replace="مّْكٍ" regex="false" match_case="false"/>
+<processor match="نْكٌ" replace="مّْكٌ" regex="false" match_case="false"/>
+<processor match="نْكَّ" replace="مّْكَّ" regex="false" match_case="false"/>
+<processor match="نْكُّ" replace="مّْكُّ" regex="false" match_case="false"/>
+<processor match="نْكِّ" replace="مّْكِّ" regex="false" match_case="false"/>
+<processor match="نْكًّ" replace="مّْكًّ" regex="false" match_case="false"/>
+<processor match="نْكٍّ" replace="مّْكٍّ" regex="false" match_case="false"/>
+<processor match="نْكٌّ" replace="مّْكٌّ" regex="false" match_case="false"/>
+<processor match="نْ جَ" replace="مّْجَ" regex="false" match_case="false"/>
+<processor match="نْ جُ" replace="مّْجُ" regex="false" match_case="false"/>
+<processor match="نْ جِ" replace="مّْجِ" regex="false" match_case="false"/>
+<processor match="نْ جً" replace="مّْجً" regex="false" match_case="false"/>
+<processor match="نْ جٍ" replace="مّْجٍ" regex="false" match_case="false"/>
+<processor match="نْ جٌ" replace="مّْجٌ" regex="false" match_case="false"/>
+<processor match="نْ جَّ" replace="مّْجَّ" regex="false" match_case="false"/>
+<processor match="نْ جُّ" replace="مّْجُّ" regex="false" match_case="false"/>
+<processor match="نْ جِّ" replace="مّْجِّ" regex="false" match_case="false"/>
+<processor match="نْ جًّ" replace="مّْجًّ" regex="false" match_case="false"/>
+<processor match="نْ جٍّ" replace="مّْجٍّ" regex="false" match_case="false"/>
+<processor match="نْ جٌّ" replace="مّْجٌّ" regex="false" match_case="false"/>
+<processor match="نْجَ" replace="مّْجَ" regex="false" match_case="false"/>
+<processor match="نْجُ" replace="مّْجُ" regex="false" match_case="false"/>
+<processor match="نْجِ" replace="مّْجِ" regex="false" match_case="false"/>
+<processor match="نْجً" replace="مّْجً" regex="false" match_case="false"/>
+<processor match="نْجٍ" replace="مّْجٍ" regex="false" match_case="false"/>
+<processor match="نْجٌ" replace="مّْجٌ" regex="false" match_case="false"/>
+<processor match="نْجَّ" replace="مّْجَّ" regex="false" match_case="false"/>
+<processor match="نْجُّ" replace="مّْجُّ" regex="false" match_case="false"/>
+<processor match="نْجِّ" replace="مّْجِّ" regex="false" match_case="false"/>
+<processor match="نْجًّ" replace="مّْجًّ" regex="false" match_case="false"/>
+<processor match="نْجٍّ" replace="مّْجٍّ" regex="false" match_case="false"/>
+<processor match="نْجٌّ" replace="مّْجٌّ" regex="false" match_case="false"/>
+<processor match="نْ شَ" replace="مّْشَ" regex="false" match_case="false"/>
+<processor match="نْ شُ" replace="مّْشُ" regex="false" match_case="false"/>
+<processor match="نْ شِ" replace="مّْشِ" regex="false" match_case="false"/>
+<processor match="نْ شً" replace="مّْشً" regex="false" match_case="false"/>
+<processor match="نْ شٍ" replace="مّْشٍ" regex="false" match_case="false"/>
+<processor match="نْ شٌ" replace="مّْشٌ" regex="false" match_case="false"/>
+<processor match="نْ شَّ" replace="مّْشَّ" regex="false" match_case="false"/>
+<processor match="نْ شُّ" replace="مّْشُّ" regex="false" match_case="false"/>
+<processor match="نْ شِّ" replace="مّْشِّ" regex="false" match_case="false"/>
+<processor match="نْ شًّ" replace="مّْشًّ" regex="false" match_case="false"/>
+<processor match="نْ شٍّ" replace="مّْشٍّ" regex="false" match_case="false"/>
+<processor match="نْ شٌّ" replace="مّْشٌّ" regex="false" match_case="false"/>
+<processor match="نْشَ" replace="مّْشَ" regex="false" match_case="false"/>
+<processor match="نْشُ" replace="مّْشُ" regex="false" match_case="false"/>
+<processor match="نْشِ" replace="مّْشِ" regex="false" match_case="false"/>
+<processor match="نْشً" replace="مّْشً" regex="false" match_case="false"/>
+<processor match="نْشٍ" replace="مّْشٍ" regex="false" match_case="false"/>
+<processor match="نْشٌ" replace="مّْشٌ" regex="false" match_case="false"/>
+<processor match="نْشَّ" replace="مّْشَّ" regex="false" match_case="false"/>
+<processor match="نْشُّ" replace="مّْشُّ" regex="false" match_case="false"/>
+<processor match="نْشِّ" replace="مّْشِّ" regex="false" match_case="false"/>
+<processor match="نْشًّ" replace="مّْشًّ" regex="false" match_case="false"/>
+<processor match="نْشٍّ" replace="مّْشٍّ" regex="false" match_case="false"/>
+<processor match="نْشٌّ" replace="مّْشٌّ" regex="false" match_case="false"/>
+<processor match="نْ قَ" replace="مّْقَ" regex="false" match_case="false"/>
+<processor match="نْ قُ" replace="مّْقُ" regex="false" match_case="false"/>
+<processor match="نْ قِ" replace="مّْقِ" regex="false" match_case="false"/>
+<processor match="نْ قً" replace="مّْقً" regex="false" match_case="false"/>
+<processor match="نْ قٍ" replace="مّْقٍ" regex="false" match_case="false"/>
+<processor match="نْ قٌ" replace="مّْقٌ" regex="false" match_case="false"/>
+<processor match="نْ قَّ" replace="مّْقَّ" regex="false" match_case="false"/>
+<processor match="نْ قُّ" replace="مّْقُّ" regex="false" match_case="false"/>
+<processor match="نْ قِّ" replace="مّْقِّ" regex="false" match_case="false"/>
+<processor match="نْ قًّ" replace="مّْقًّ" regex="false" match_case="false"/>
+<processor match="نْ قٍّ" replace="مّْقٍّ" regex="false" match_case="false"/>
+<processor match="نْ قٌّ" replace="مّْقٌّ" regex="false" match_case="false"/>
+<processor match="نْقَ" replace="مّْقَ" regex="false" match_case="false"/>
+<processor match="نْقُ" replace="مّْقُ" regex="false" match_case="false"/>
+<processor match="نْقِ" replace="مّْقِ" regex="false" match_case="false"/>
+<processor match="نْقً" replace="مّْقً" regex="false" match_case="false"/>
+<processor match="نْقٍ" replace="مّْقٍ" regex="false" match_case="false"/>
+<processor match="نْقٌ" replace="مّْقٌ" regex="false" match_case="false"/>
+<processor match="نْقَّ" replace="مّْقَّ" regex="false" match_case="false"/>
+<processor match="نْقُّ" replace="مّْقُّ" regex="false" match_case="false"/>
+<processor match="نْقِّ" replace="مّْقِّ" regex="false" match_case="false"/>
+<processor match="نْقًّ" replace="مّْقًّ" regex="false" match_case="false"/>
+<processor match="نْقٍّ" replace="مّْقٍّ" regex="false" match_case="false"/>
+<processor match="نْقٌّ" replace="مّْقٌّ" regex="false" match_case="false"/>
+<processor match="نْ سَ" replace="مّْسَ" regex="false" match_case="false"/>
+<processor match="نْ سُ" replace="مّْسُ" regex="false" match_case="false"/>
+<processor match="نْ سِ" replace="مّْسِ" regex="false" match_case="false"/>
+<processor match="نْ سً" replace="مّْسً" regex="false" match_case="false"/>
+<processor match="نْ سٍ" replace="مّْسٍ" regex="false" match_case="false"/>
+<processor match="نْ سٌ" replace="مّْسٌ" regex="false" match_case="false"/>
+<processor match="نْ سَّ" replace="مّْسَّ" regex="false" match_case="false"/>
+<processor match="نْ سُّ" replace="مّْسُّ" regex="false" match_case="false"/>
+<processor match="نْ سِّ" replace="مّْسِّ" regex="false" match_case="false"/>
+<processor match="نْ سًّ" replace="مّْسًّ" regex="false" match_case="false"/>
+<processor match="نْ سٍّ" replace="مّْسٍّ" regex="false" match_case="false"/>
+<processor match="نْ سٌّ" replace="مّْسٌّ" regex="false" match_case="false"/>
+<processor match="نْسَ" replace="مْسَ" regex="false" match_case="false"/>
+<processor match="نْسُ" replace="مّْسسُ" regex="false" match_case="false"/>
+<processor match="نْسِ" replace="مّْسِ" regex="false" match_case="false"/>
+<processor match="نْسً" replace="مّْسسً" regex="false" match_case="false"/>
+<processor match="نْسٍ" replace="مّْسسٍ" regex="false" match_case="false"/>
+<processor match="نْسٌ" replace="مّْسسٌ" regex="false" match_case="false"/>
+<processor match="نْسَّ" replace="مّْسسَّ" regex="false" match_case="false"/>
+<processor match="نْسُّ" replace="مّْسسُّ" regex="false" match_case="false"/>
+<processor match="نْسِّ" replace="مّْسسِّ" regex="false" match_case="false"/>
+<processor match="نْسًّ" replace="مّْسسًّ" regex="false" match_case="false"/>
+<processor match="نْسٍّ" replace="مّْسسٍّ" regex="false" match_case="false"/>
+<processor match="نْسٌّ" replace="مّْسسٌّ" regex="false" match_case="false"/>
+<processor match="نْ دَ" replace="مّْدَ" regex="false" match_case="false"/>
+<processor match="نْ دُ" replace="مّْدُ" regex="false" match_case="false"/>
+<processor match="نْ دِ" replace="مّْدِ" regex="false" match_case="false"/>
+<processor match="نْ دً" replace="مْدً" regex="false" match_case="false"/>
+<processor match="نْ دٍ" replace="مّْدٍ" regex="false" match_case="false"/>
+<processor match="نْ دٌ" replace="مّْدٌ" regex="false" match_case="false"/>
+<processor match="نْ دَّ" replace="مّْدَّ" regex="false" match_case="false"/>
+<processor match="نْ دُّ" replace="مّْدُّ" regex="false" match_case="false"/>
+<processor match="نْ دِّ" replace="مّْدِّ" regex="false" match_case="false"/>
+<processor match="نْ دًّ" replace="مّْدًّ" regex="false" match_case="false"/>
+<processor match="نْ دٍّ" replace="مّْدٍّ" regex="false" match_case="false"/>
+<processor match="نْ دٌّ" replace="مّْدٌّ" regex="false" match_case="false"/>
+<processor match="نْدَ" replace="مّْدَ" regex="false" match_case="false"/>
+<processor match="نْدُ" replace="مّْدُ" regex="false" match_case="false"/>
+<processor match="نْدِ" replace="مّْدِ" regex="false" match_case="false"/>
+<processor match="نْدً" replace="مّْدً" regex="false" match_case="false"/>
+<processor match="نْدٍ" replace="مّْدٍ" regex="false" match_case="false"/>
+<processor match="نْدٌ" replace="مّْدٌ" regex="false" match_case="false"/>
+<processor match="نْدَّ" replace="مّْدَّ" regex="false" match_case="false"/>
+<processor match="نْدُّ" replace="مّْدُّ" regex="false" match_case="false"/>
+<processor match="نْدِّ" replace="مّْدِّ" regex="false" match_case="false"/>
+<processor match="نْدًّ" replace="مّْدًّ" regex="false" match_case="false"/>
+<processor match="نْدٍّ" replace="مّْدٍّ" regex="false" match_case="false"/>
+<processor match="نْدٌّ" replace="مّْدٌّ" regex="false" match_case="false"/>
+<processor match="نْ طَ" replace="مّْطَ" regex="false" match_case="false"/>
+<processor match="نْ طُ" replace="مّْطُ" regex="false" match_case="false"/>
+<processor match="نْ طِ" replace="مّْطِ" regex="false" match_case="false"/>
+<processor match="نْ طً" replace="مّْطً" regex="false" match_case="false"/>
+<processor match="نْ طٍ" replace="مّْطٍ" regex="false" match_case="false"/>
+<processor match="نْ طٌ" replace="مّْطٌ" regex="false" match_case="false"/>
+<processor match="نْ طَّ" replace="مّْطَّ" regex="false" match_case="false"/>
+<processor match="نْ طُّ" replace="مّْطُّ" regex="false" match_case="false"/>
+<processor match="نْ طِّ" replace="مّْطِّ" regex="false" match_case="false"/>
+<processor match="نْ طًّ" replace="مّْطًّ" regex="false" match_case="false"/>
+<processor match="نْ طٍّ" replace="مّْطٍّ" regex="false" match_case="false"/>
+<processor match="نْ طٌّ" replace="مّْطٌّ" regex="false" match_case="false"/>
+<processor match="نْطَ" replace="مّْطَ" regex="false" match_case="false"/>
+<processor match="نْطُ" replace="مّْطُ" regex="false" match_case="false"/>
+<processor match="نْطِ" replace="مّْطِ" regex="false" match_case="false"/>
+<processor match="نْطً" replace="مّْطً" regex="false" match_case="false"/>
+<processor match="نْطٍ" replace="مّْطٍ" regex="false" match_case="false"/>
+<processor match="نْطٌ" replace="مّْطٌ" regex="false" match_case="false"/>
+<processor match="نْطَّ" replace="مّْطَّ" regex="false" match_case="false"/>
+<processor match="نْطُّ" replace="مّْطُّ" regex="false" match_case="false"/>
+<processor match="نْطِّ" replace="مّْطِّ" regex="false" match_case="false"/>
+<processor match="نْطًّ" replace="مّْطًّ" regex="false" match_case="false"/>
+<processor match="نْطٍّ" replace="مّْطٍّ" regex="false" match_case="false"/>
+<processor match="نْطٌّ" replace="مّْطٌّ" regex="false" match_case="false"/>
+<processor match="نْ زَ" replace="مّْزَ" regex="false" match_case="false"/>
+<processor match="نْ زُ" replace="مّْزُ" regex="false" match_case="false"/>
+<processor match="نْ زِ" replace="مّْزِ" regex="false" match_case="false"/>
+<processor match="نْ زً" replace="مّْزً" regex="false" match_case="false"/>
+<processor match="نْ زٍ" replace="مّْزٍ" regex="false" match_case="false"/>
+<processor match="نْ زٌ" replace="مّْزٌ" regex="false" match_case="false"/>
+<processor match="نْ زَّ" replace="مّْزَّ" regex="false" match_case="false"/>
+<processor match="نْ زُّ" replace="مّْزُّ" regex="false" match_case="false"/>
+<processor match="نْ زِّ" replace="مّْزِّ" regex="false" match_case="false"/>
+<processor match="نْ زًّ" replace="مّْزًّ" regex="false" match_case="false"/>
+<processor match="نْ زٍّ" replace="مّْزٍّ" regex="false" match_case="false"/>
+<processor match="نْ زٌّ" replace="مّْزٌّ" regex="false" match_case="false"/>
+<processor match="نْزَ" replace="مّْزَ" regex="false" match_case="false"/>
+<processor match="نْزُ" replace="مّْزُ" regex="false" match_case="false"/>
+<processor match="نْزِ" replace="مّْزِ" regex="false" match_case="false"/>
+<processor match="نْزً" replace="مّْزً" regex="false" match_case="false"/>
+<processor match="نْزٍ" replace="مّْزٍ" regex="false" match_case="false"/>
+<processor match="نْزٌ" replace="مّْزٌ" regex="false" match_case="false"/>
+<processor match="نْزَّ" replace="مّْزَّ" regex="false" match_case="false"/>
+<processor match="نْزُّ" replace="مّْزُّ" regex="false" match_case="false"/>
+<processor match="نْزِّ" replace="مّْزِّ" regex="false" match_case="false"/>
+<processor match="نْزًّ" replace="مّْزًّ" regex="false" match_case="false"/>
+<processor match="نْزٍّ" replace="مّْزٍّ" regex="false" match_case="false"/>
+<processor match="نْزٌّ" replace="مّْزٌّ" regex="false" match_case="false"/>
+<processor match="نْ فَ" replace="مّْفَ" regex="false" match_case="false"/>
+<processor match="نْ فُ" replace="مّْفُ" regex="false" match_case="false"/>
+<processor match="نْ فِ" replace="مّْفِ" regex="false" match_case="false"/>
+<processor match="نْ فً" replace="مّْفً" regex="false" match_case="false"/>
+<processor match="نْ فٍ" replace="مّْفٍ" regex="false" match_case="false"/>
+<processor match="نْ فٌ" replace="مّْفٌ" regex="false" match_case="false"/>
+<processor match="نْ فَّ" replace="مّْفَّ" regex="false" match_case="false"/>
+<processor match="نْ فُّ" replace="مّْفُّ" regex="false" match_case="false"/>
+<processor match="نْ فِّ" replace="مّْفِّ" regex="false" match_case="false"/>
+<processor match="نْ فًّ" replace="مّْفًّ" regex="false" match_case="false"/>
+<processor match="نْ فٍّ" replace="مّْفٍّ" regex="false" match_case="false"/>
+<processor match="نْ فٌّ" replace="مّْفٌّ" regex="false" match_case="false"/>
+<processor match="نْفَ" replace="مّْفَ" regex="false" match_case="false"/>
+<processor match="نْفُ" replace="مّْفُ" regex="false" match_case="false"/>
+<processor match="نْفِ" replace="مّْفِ" regex="false" match_case="false"/>
+<processor match="نْفً" replace="مّْفً" regex="false" match_case="false"/>
+<processor match="نْفٍ" replace="مّْفٍ" regex="false" match_case="false"/>
+<processor match="نْفٌ" replace="مّْفٌ" regex="false" match_case="false"/>
+<processor match="نْفَّ" replace="مّْفَّ" regex="false" match_case="false"/>
+<processor match="نْفُّ" replace="مّْفُّ" regex="false" match_case="false"/>
+<processor match="نْفِّ" replace="مّْفِّ" regex="false" match_case="false"/>
+<processor match="نْفًّ" replace="مّْفًّ" regex="false" match_case="false"/>
+<processor match="نْفٍّ" replace="مّْفٍّ" regex="false" match_case="false"/>
+<processor match="نْفٌّ" replace="مّْفٌّ" regex="false" match_case="false"/>
+<processor match="نْ تَ" replace="مّْتَ" regex="false" match_case="false"/>
+<processor match="نْ تُ" replace="مّْتُ" regex="false" match_case="false"/>
+<processor match="نْ تِ" replace="مّْتِ" regex="false" match_case="false"/>
+<processor match="نْ تً" replace="مّْتً" regex="false" match_case="false"/>
+<processor match="نْ تٍ" replace="مّْتٍ" regex="false" match_case="false"/>
+<processor match="نْ تٌ" replace="مّْتٌ" regex="false" match_case="false"/>
+<processor match="نْ تَّ" replace="مّْتَّ" regex="false" match_case="false"/>
+<processor match="نْ تُّ" replace="مّْتُّ" regex="false" match_case="false"/>
+<processor match="نْ تِّ" replace="مّْتِّ" regex="false" match_case="false"/>
+<processor match="نْ تًّ" replace="مّْتًّ" regex="false" match_case="false"/>
+<processor match="نْ تٍّ" replace="مّْتٍّ" regex="false" match_case="false"/>
+<processor match="نْ تٌّ" replace="مّْتٌّ" regex="false" match_case="false"/>
+<processor match="نْتَ" replace="مّْتَ" regex="false" match_case="false"/>
+<processor match="نْتُ" replace="مّْتُ" regex="false" match_case="false"/>
+<processor match="نْتِ" replace="مّْتِ" regex="false" match_case="false"/>
+<processor match="نْتً" replace="مّْتً" regex="false" match_case="false"/>
+<processor match="نْتٍ" replace="مّْتٍ" regex="false" match_case="false"/>
+<processor match="نْتٌ" replace="مّْتٌ" regex="false" match_case="false"/>
+<processor match="نْتَّ" replace="مّْتَّ" regex="false" match_case="false"/>
+<processor match="نْتُّ" replace="مّْتُّ" regex="false" match_case="false"/>
+<processor match="نْتِّ" replace="مّْتِّ" regex="false" match_case="false"/>
+<processor match="نْتًّ" replace="مّْتًّ" regex="false" match_case="false"/>
+<processor match="نْتٍّ" replace="مّْتٍّ" regex="false" match_case="false"/>
+<processor match="نْتٌّ" replace="مّْتٌّ" regex="false" match_case="false"/>
+<processor match="نْ ضَ" replace="مّْضَ" regex="false" match_case="false"/>
+<processor match="نْ ضُ" replace="مّْضُ" regex="false" match_case="false"/>
+<processor match="نْ ضِ" replace="مّْضِ" regex="false" match_case="false"/>
+<processor match="نْ ضً" replace="مّْضً" regex="false" match_case="false"/>
+<processor match="نْ ضٍ" replace="مّْضٍ" regex="false" match_case="false"/>
+<processor match="نْ ضٌ" replace="مّْضٌ" regex="false" match_case="false"/>
+<processor match="نْ ضَّ" replace="مّْضَّ" regex="false" match_case="false"/>
+<processor match="نْ ضُّ" replace="مّْضُّ" regex="false" match_case="false"/>
+<processor match="نْ ضِّ" replace="مّْضِّ" regex="false" match_case="false"/>
+<processor match="نْ ضًّ" replace="مّْضًّ" regex="false" match_case="false"/>
+<processor match="نْ ضٍّ" replace="مّْضٍّ" regex="false" match_case="false"/>
+<processor match="نْ ضٌّ" replace="مّْضٌّ" regex="false" match_case="false"/>
+<processor match="نْضَ" replace="مّْضَ" regex="false" match_case="false"/>
+<processor match="نْضُ" replace="مّْضُ" regex="false" match_case="false"/>
+<processor match="نْضِ" replace="مّْضِ" regex="false" match_case="false"/>
+<processor match="نْضً" replace="مّْضً" regex="false" match_case="false"/>
+<processor match="نْضٍ" replace="مّْضٍ" regex="false" match_case="false"/>
+<processor match="نْضٌ" replace="مّْضٌ" regex="false" match_case="false"/>
+<processor match="نْضَّ" replace="مّْضَّ" regex="false" match_case="false"/>
+<processor match="نْضُّ" replace="مّْضُّ" regex="false" match_case="false"/>
+<processor match="نْضِّ" replace="مّْضِّ" regex="false" match_case="false"/>
+<processor match="نْضًّ" replace="مّْضًّ" regex="false" match_case="false"/>
+<processor match="نْضٍّ" replace="مّْضٍّ" regex="false" match_case="false"/>
+<processor match="نْضٌّ" replace="مّْضٌّ" regex="false" match_case="false"/>
+<processor match="نْ ظَ" replace="مّْظَ" regex="false" match_case="false"/>
+<processor match="نْ ظُ" replace="مّْظُ" regex="false" match_case="false"/>
+<processor match="نْ ظِ" replace="مّْظِ" regex="false" match_case="false"/>
+<processor match="نْ ظً" replace="مّْظً" regex="false" match_case="false"/>
+<processor match="نْ ظٍ" replace="مّْظٍ" regex="false" match_case="false"/>
+<processor match="نْ ظٌ" replace="مّْظٌ" regex="false" match_case="false"/>
+<processor match="نْ ظَّ" replace="مّْظَّ" regex="false" match_case="false"/>
+<processor match="نْ ظُّ" replace="مّْظُّ" regex="false" match_case="false"/>
+<processor match="نْ ظِّ" replace="مّْظِّ" regex="false" match_case="false"/>
+<processor match="نْ ظًّ" replace="مّْظًّ" regex="false" match_case="false"/>
+<processor match="نْ ظٍّ" replace="مّْظٍّ" regex="false" match_case="false"/>
+<processor match="نْ ظٌّ" replace="مّْظٌّ" regex="false" match_case="false"/>
+<processor match="نْظَ" replace="مّْظَ" regex="false" match_case="false"/>
+<processor match="نْظُ" replace="مّْظُ" regex="false" match_case="false"/>
+<processor match="نْظِ" replace="مّْظِ" regex="false" match_case="false"/>
+<processor match="نْظً" replace="مّْظً" regex="false" match_case="false"/>
+<processor match="نْظٍ" replace="مّْظٍ" regex="false" match_case="false"/>
+<processor match="نْظٌ" replace="مّْظٌ" regex="false" match_case="false"/>
+<processor match="نْظَّ" replace="مّْظَّ" regex="false" match_case="false"/>
+<processor match="نْظُّ" replace="مّْظُّ" regex="false" match_case="false"/>
+<processor match="نْظِّ" replace="مّْظِّ" regex="false" match_case="false"/>
+<processor match="نْظًّ" replace="مّْظًّ" regex="false" match_case="false"/>
+<processor match="نْظٍّ" replace="مّْظٍّ" regex="false" match_case="false"/>
+<processor match="نْظٌّ" replace="مّْظٌّ" regex="false" match_case="false"/>
+<processor match="ً صَ" replace="َمّْصَ" regex="false" match_case="false"/>
+<processor match="ً صُ" replace="َمّْصُ" regex="false" match_case="false"/>
+<processor match="ً صِ" replace="َمّْصِ" regex="false" match_case="false"/>
+<processor match="ٍ صَ" replace="ِمّْصَ" regex="false" match_case="false"/>
+<processor match="ٍ صُ" replace="ِمّْصُ" regex="false" match_case="false"/>
+<processor match="ٍ صِ" replace="ِمّْصِ" regex="false" match_case="false"/>
+<processor match="ٌ صَ" replace="ُمّْصَ" regex="false" match_case="false"/>
+<processor match="ٌ صُ" replace="ُمّْصُ" regex="false" match_case="false"/>
+<processor match="ٌ صِ" replace="ُمّْصِ" regex="false" match_case="false"/>
+<processor match="ًا صَ" replace="َمّْصَ" regex="false" match_case="false"/>
+<processor match="ًا صُ" replace="َمّْصُ" regex="false" match_case="false"/>
+<processor match="ًا صِ" replace="َمّْصِ" regex="false" match_case="false"/>
+<processor match="ٍا صَ" replace="ِمّْصَ" regex="false" match_case="false"/>
+<processor match="ٍا صُ" replace="ِمّْصُ" regex="false" match_case="false"/>
+<processor match="ٍا صِ" replace="ِمّْصِ" regex="false" match_case="false"/>
+<processor match="ٌا صَ" replace="ُمّْصَ" regex="false" match_case="false"/>
+<processor match="ٌا صُ" replace="ُمّْصُ" regex="false" match_case="false"/>
+<processor match="ٌا صِ" replace="ُمّْصِ" regex="false" match_case="false"/>
+<processor match="ً ذَ" replace="َمّْذَ" regex="false" match_case="false"/>
+<processor match="ً ذُ" replace="َمّْذُ" regex="false" match_case="false"/>
+<processor match="ً ذِ" replace="َمّْذِ" regex="false" match_case="false"/>
+<processor match="ٍ ذَ" replace="ِمّْذَ" regex="false" match_case="false"/>
+<processor match="ٍ ذُ" replace="ِمّْذُ" regex="false" match_case="false"/>
+<processor match="ٍ ذِ" replace="ِمّْذِ" regex="false" match_case="false"/>
+<processor match="ٌ ذَ" replace="ُمّْذَ" regex="false" match_case="false"/>
+<processor match="ٌ ذُ" replace="ُمّْذُ" regex="false" match_case="false"/>
+<processor match="ٌ ذِ" replace="ُمّْذِ" regex="false" match_case="false"/>
+<processor match="ًا ذَ" replace="َمّْذَ" regex="false" match_case="false"/>
+<processor match="ًا ذُ" replace="َمّْذُ" regex="false" match_case="false"/>
+<processor match="ًا ذِ" replace="َمّْذِ" regex="false" match_case="false"/>
+<processor match="ٍا ذَ" replace="ِمّْذَ" regex="false" match_case="false"/>
+<processor match="ٍا ذُ" replace="ِمّْذُ" regex="false" match_case="false"/>
+<processor match="ٍا ذِ" replace="ِمّْذِ" regex="false" match_case="false"/>
+<processor match="ٌا ذَ" replace="ُمّْذَ" regex="false" match_case="false"/>
+<processor match="ٌا ذُ" replace="ُمّْذُ" regex="false" match_case="false"/>
+<processor match="ٌا ذِ" replace="ُمّْذِ" regex="false" match_case="false"/>
+<processor match="ً ثَ" replace="َمّْثَ" regex="false" match_case="false"/>
+<processor match="ً ثُ" replace="َمّْثُ" regex="false" match_case="false"/>
+<processor match="ً ثِ" replace="َمّْثِ" regex="false" match_case="false"/>
+<processor match="ٍ ثَ" replace="ِمّْثَ" regex="false" match_case="false"/>
+<processor match="ٍ ثُ" replace="ِمّْثُ" regex="false" match_case="false"/>
+<processor match="ٍ ثِ" replace="ِمّْثِ" regex="false" match_case="false"/>
+<processor match="ٌ ثَ" replace="ُمّْثَ" regex="false" match_case="false"/>
+<processor match="ٌ ثُ" replace="ُمّْثُ" regex="false" match_case="false"/>
+<processor match="ٌ ثِ" replace="ُمّْثِ" regex="false" match_case="false"/>
+<processor match="ًا ثَ" replace="َمّْثَ" regex="false" match_case="false"/>
+<processor match="ًا ثُ" replace="َمّْثُ" regex="false" match_case="false"/>
+<processor match="ًا ثِ" replace="َمّْثِ" regex="false" match_case="false"/>
+<processor match="ٍا ثَ" replace="ِمّْثَ" regex="false" match_case="false"/>
+<processor match="ٍا ثُ" replace="ِمّْثُ" regex="false" match_case="false"/>
+<processor match="ٍا ثِ" replace="ِمّْثِ" regex="false" match_case="false"/>
+<processor match="ٌا ثَ" replace="ُمّْثَ" regex="false" match_case="false"/>
+<processor match="ٌا ثُ" replace="ُمّْثُ" regex="false" match_case="false"/>
+<processor match="ٌا ثِ" replace="ُمّْثِ" regex="false" match_case="false"/>
+<processor match="ً كَ" replace="َمّْكَ" regex="false" match_case="false"/>
+<processor match="ً كُ" replace="َمّْكُ" regex="false" match_case="false"/>
+<processor match="ً كِ" replace="َمّْكِ" regex="false" match_case="false"/>
+<processor match="ٍ كَ" replace="ِمّْكَ" regex="false" match_case="false"/>
+<processor match="ٍ كُ" replace="ِمّْكُ" regex="false" match_case="false"/>
+<processor match="ٍ كِ" replace="ِمّْكِ" regex="false" match_case="false"/>
+<processor match="ٌ كَ" replace="ُمّْكَ" regex="false" match_case="false"/>
+<processor match="ٌ كُ" replace="ُمّْكُ" regex="false" match_case="false"/>
+<processor match="ٌ كِ" replace="ُمّْكِ" regex="false" match_case="false"/>
+<processor match="ًا كَ" replace="َمّْكَ" regex="false" match_case="false"/>
+<processor match="ًا كُ" replace="َمّْكُ" regex="false" match_case="false"/>
+<processor match="ًا كِ" replace="َمّْكِ" regex="false" match_case="false"/>
+<processor match="ٍا كَ" replace="ِمّْكَ" regex="false" match_case="false"/>
+<processor match="ٍا كُ" replace="ِمّْكُ" regex="false" match_case="false"/>
+<processor match="ٍا كِ" replace="ِمّْكِ" regex="false" match_case="false"/>
+<processor match="ٌا كَ" replace="ُمّْكَ" regex="false" match_case="false"/>
+<processor match="ٌا كُ" replace="ُمّْكُ" regex="false" match_case="false"/>
+<processor match="ٌا كِ" replace="ُمّْكِ" regex="false" match_case="false"/>
+<processor match="ً جَ" replace="َمّْجَ" regex="false" match_case="false"/>
+<processor match="ً جُ" replace="َمّْجُ" regex="false" match_case="false"/>
+<processor match="ً جِ" replace="َمّْجِ" regex="false" match_case="false"/>
+<processor match="ٍ جَ" replace="ِمّْجَ" regex="false" match_case="false"/>
+<processor match="ٍ جُ" replace="ِمّْجُ" regex="false" match_case="false"/>
+<processor match="ٍ جِ" replace="ِمّْجِ" regex="false" match_case="false"/>
+<processor match="ٌ جَ" replace="ُمّْجَ" regex="false" match_case="false"/>
+<processor match="ٌ جُ" replace="ُمّْجُ" regex="false" match_case="false"/>
+<processor match="ٌ جِ" replace="ُمّْجِ" regex="false" match_case="false"/>
+<processor match="ًا جَ" replace="َمّْجَ" regex="false" match_case="false"/>
+<processor match="ًا جُ" replace="َمّْجُ" regex="false" match_case="false"/>
+<processor match="ًا جِ" replace="َمّْجِ" regex="false" match_case="false"/>
+<processor match="ٍا جَ" replace="ِمّْجَ" regex="false" match_case="false"/>
+<processor match="ٍا جُ" replace="ِمّْجُ" regex="false" match_case="false"/>
+<processor match="ٍا جِ" replace="ِمّْجِ" regex="false" match_case="false"/>
+<processor match="ٌا جَ" replace="ُمّْجَ" regex="false" match_case="false"/>
+<processor match="ٌا جُ" replace="ُمّْجُ" regex="false" match_case="false"/>
+<processor match="ٌا جِ" replace="ُمّْجِ" regex="false" match_case="false"/>
+<processor match="ً شَ" replace="َمّْشَ" regex="false" match_case="false"/>
+<processor match="ً شُ" replace="َمّْشُ" regex="false" match_case="false"/>
+<processor match="ً شِ" replace="َمّْشِ" regex="false" match_case="false"/>
+<processor match="ٍ شَ" replace="ِمّْشَ" regex="false" match_case="false"/>
+<processor match="ٍ شُ" replace="ِمّْشُ" regex="false" match_case="false"/>
+<processor match="ٍ شِ" replace="ِمّْشِ" regex="false" match_case="false"/>
+<processor match="ٌ شَ" replace="ُمّْشَ" regex="false" match_case="false"/>
+<processor match="ٌ شُ" replace="ُمّْشُ" regex="false" match_case="false"/>
+<processor match="ٌ شِ" replace="ُمّْشِ" regex="false" match_case="false"/>
+<processor match="ًا شَ" replace="َمّْشَ" regex="false" match_case="false"/>
+<processor match="ًا شُ" replace="َمّْشُ" regex="false" match_case="false"/>
+<processor match="ًا شِ" replace="َمّْشِ" regex="false" match_case="false"/>
+<processor match="ٍا شَ" replace="ِمّْشَ" regex="false" match_case="false"/>
+<processor match="ٍا شُ" replace="ِمّْشُ" regex="false" match_case="false"/>
+<processor match="ٍا شِ" replace="ِمّْشِ" regex="false" match_case="false"/>
+<processor match="ٌا شَ" replace="ُمّْشَ" regex="false" match_case="false"/>
+<processor match="ٌا شُ" replace="ُمّْشُ" regex="false" match_case="false"/>
+<processor match="ٌا شِ" replace="ُمّْشِ" regex="false" match_case="false"/>
+<processor match="ً قَ" replace="َمّْقَ" regex="false" match_case="false"/>
+<processor match="ً قُ" replace="َمّْقُ" regex="false" match_case="false"/>
+<processor match="ً قِ" replace="َمّْقِ" regex="false" match_case="false"/>
+<processor match="ٍ قَ" replace="ِمّْقَ" regex="false" match_case="false"/>
+<processor match="ٍ قُ" replace="ِمّْقُ" regex="false" match_case="false"/>
+<processor match="ٍ قِ" replace="ِمّْقِ" regex="false" match_case="false"/>
+<processor match="ٌ قَ" replace="ُمّْقَ" regex="false" match_case="false"/>
+<processor match="ٌ قُ" replace="ُمّْقُ" regex="false" match_case="false"/>
+<processor match="ٌ قِ" replace="ُمّْقِ" regex="false" match_case="false"/>
+<processor match="ًا قَ" replace="َمّْقَ" regex="false" match_case="false"/>
+<processor match="ًا قُ" replace="َمّْقُ" regex="false" match_case="false"/>
+<processor match="ًا قِ" replace="َمّْقِ" regex="false" match_case="false"/>
+<processor match="ٍا قَ" replace="ِمّْقَ" regex="false" match_case="false"/>
+<processor match="ٍا قُ" replace="ِمّْقُ" regex="false" match_case="false"/>
+<processor match="ٍا قِ" replace="ِمّْقِ" regex="false" match_case="false"/>
+<processor match="ٌا قَ" replace="ُمّْقَ" regex="false" match_case="false"/>
+<processor match="ٌا قُ" replace="ُمّْقُ" regex="false" match_case="false"/>
+<processor match="ٌا قِ" replace="ُمّْقِ" regex="false" match_case="false"/>
+<processor match="ً سَ" replace="َمّْسَ" regex="false" match_case="false"/>
+<processor match="ً سُ" replace="َمّْسُ" regex="false" match_case="false"/>
+<processor match="ً سِ" replace="َمّْسِ" regex="false" match_case="false"/>
+<processor match="ٍ سَ" replace="ِمّْسَ" regex="false" match_case="false"/>
+<processor match="ٍ سُ" replace="ِمّْسُ" regex="false" match_case="false"/>
+<processor match="ٍ سِ" replace="ِمّْسِ" regex="false" match_case="false"/>
+<processor match="ٌ سَ" replace="ُمّْسَ" regex="false" match_case="false"/>
+<processor match="ٌ سُ" replace="ُمّْسُ" regex="false" match_case="false"/>
+<processor match="ٌ سِ" replace="ُمّْسِ" regex="false" match_case="false"/>
+<processor match="ًا سَ" replace="َمّْسَ" regex="false" match_case="false"/>
+<processor match="ًا سُ" replace="َمّْسُ" regex="false" match_case="false"/>
+<processor match="ًا سِ" replace="َمّْسِ" regex="false" match_case="false"/>
+<processor match="ٍا سَ" replace="ِمّْسَ" regex="false" match_case="false"/>
+<processor match="ٍا سُ" replace="ِمّْسُ" regex="false" match_case="false"/>
+<processor match="ٍا سِ" replace="ِمّْسِ" regex="false" match_case="false"/>
+<processor match="ٌا سَ" replace="ُمّْسَ" regex="false" match_case="false"/>
+<processor match="ٌا سُ" replace="ُمّْسُ" regex="false" match_case="false"/>
+<processor match="ٌا سِ" replace="ُمّْسِ" regex="false" match_case="false"/>
+<processor match="ً دَ" replace="َمّْدَ" regex="false" match_case="false"/>
+<processor match="ً دُ" replace="َمّْدُ" regex="false" match_case="false"/>
+<processor match="ً دِ" replace="َمّْدِ" regex="false" match_case="false"/>
+<processor match="ٍ دَ" replace="ِمّْدَ" regex="false" match_case="false"/>
+<processor match="ٍ دُ" replace="ِمّْدُ" regex="false" match_case="false"/>
+<processor match="ٍ دِ" replace="ِمّْدِ" regex="false" match_case="false"/>
+<processor match="ٌ دَ" replace="ُمّْدَ" regex="false" match_case="false"/>
+<processor match="ٌ دُ" replace="ُمّْدُ" regex="false" match_case="false"/>
+<processor match="ٌ دِ" replace="ُمّْدِ" regex="false" match_case="false"/>
+<processor match="ًا دَ" replace="َمّْدَ" regex="false" match_case="false"/>
+<processor match="ًا دُ" replace="َمّْدُ" regex="false" match_case="false"/>
+<processor match="ًا دِ" replace="َمّْدِ" regex="false" match_case="false"/>
+<processor match="ٍا دَ" replace="ِمّْدَ" regex="false" match_case="false"/>
+<processor match="ٍا دُ" replace="ِمّْدُ" regex="false" match_case="false"/>
+<processor match="ٍا دِ" replace="ِمّْدِ" regex="false" match_case="false"/>
+<processor match="ٌا دَ" replace="ُمّْدَ" regex="false" match_case="false"/>
+<processor match="ٌا دُ" replace="ُمّْدُ" regex="false" match_case="false"/>
+<processor match="ٌا دِ" replace="ُمّْدِ" regex="false" match_case="false"/>
+<processor match="ً طَ" replace="َمّْطَ" regex="false" match_case="false"/>
+<processor match="ً طُ" replace="َمّْطُ" regex="false" match_case="false"/>
+<processor match="ً طِ" replace="َمّْطِ" regex="false" match_case="false"/>
+<processor match="ٍ طَ" replace="ِمّْطَ" regex="false" match_case="false"/>
+<processor match="ٍ طُ" replace="ِمّْطُ" regex="false" match_case="false"/>
+<processor match="ٍ طِ" replace="ِمّْطِ" regex="false" match_case="false"/>
+<processor match="ٌ طَ" replace="ُمّْطَ" regex="false" match_case="false"/>
+<processor match="ٌ طُ" replace="ُمّْطُ" regex="false" match_case="false"/>
+<processor match="ٌ طِ" replace="ُمّْطِ" regex="false" match_case="false"/>
+<processor match="ًا طَ" replace="َمّْطَ" regex="false" match_case="false"/>
+<processor match="ًا طُ" replace="َمّْطُ" regex="false" match_case="false"/>
+<processor match="ًا طِ" replace="َمّْطِ" regex="false" match_case="false"/>
+<processor match="ٍا طَ" replace="ِمّْطَ" regex="false" match_case="false"/>
+<processor match="ٍا طُ" replace="ِمّْطُ" regex="false" match_case="false"/>
+<processor match="ٍا طِ" replace="ِمّْطِ" regex="false" match_case="false"/>
+<processor match="ٌا طَ" replace="ُمّْطَ" regex="false" match_case="false"/>
+<processor match="ٌا طُ" replace="ُمّْطُ" regex="false" match_case="false"/>
+<processor match="ٌا طِ" replace="ُمّْطِ" regex="false" match_case="false"/>
+<processor match="ً زَ" replace="َمّْزَ" regex="false" match_case="false"/>
+<processor match="ً زُ" replace="َمّْزُ" regex="false" match_case="false"/>
+<processor match="ً زِ" replace="َمّْزِ" regex="false" match_case="false"/>
+<processor match="ٍ زَ" replace="ِمّْزَ" regex="false" match_case="false"/>
+<processor match="ٍ زُ" replace="ِمّْزُ" regex="false" match_case="false"/>
+<processor match="ٍ زِ" replace="ِمّْزِ" regex="false" match_case="false"/>
+<processor match="ٌ زَ" replace="ُمّْزَ" regex="false" match_case="false"/>
+<processor match="ٌ زُ" replace="ُمّْزُ" regex="false" match_case="false"/>
+<processor match="ٌ زِ" replace="ُمّْزِ" regex="false" match_case="false"/>
+<processor match="ًا زَ" replace="َمّْزَ" regex="false" match_case="false"/>
+<processor match="ًا زُ" replace="َمّْزُ" regex="false" match_case="false"/>
+<processor match="ًا زِ" replace="َمّْزِ" regex="false" match_case="false"/>
+<processor match="ٍا زَ" replace="ِمّْزَ" regex="false" match_case="false"/>
+<processor match="ٍا زُ" replace="ِمّْزُ" regex="false" match_case="false"/>
+<processor match="ٍا زِ" replace="ِمّْزِ" regex="false" match_case="false"/>
+<processor match="ٌا زَ" replace="ُمّْزَ" regex="false" match_case="false"/>
+<processor match="ٌا زُ" replace="ُمّْزُ" regex="false" match_case="false"/>
+<processor match="ٌا زِ" replace="ُمّْزِ" regex="false" match_case="false"/>
+<processor match="ً فَ" replace="َمّْفَ" regex="false" match_case="false"/>
+<processor match="ً فُ" replace="َمّْفُ" regex="false" match_case="false"/>
+<processor match="ً فِ" replace="َمّْفِ" regex="false" match_case="false"/>
+<processor match="ٍ فَ" replace="ِمّْفَ" regex="false" match_case="false"/>
+<processor match="ٍ فُ" replace="ِمّْفُ" regex="false" match_case="false"/>
+<processor match="ٍ فِ" replace="ِمّْفِ" regex="false" match_case="false"/>
+<processor match="ٌ فَ" replace="ُمّْفَ" regex="false" match_case="false"/>
+<processor match="ٌ فُ" replace="ُمّْفُ" regex="false" match_case="false"/>
+<processor match="ٌ فِ" replace="ُمّْفِ" regex="false" match_case="false"/>
+<processor match="ًا فَ" replace="َمّْفَ" regex="false" match_case="false"/>
+<processor match="ًا فُ" replace="َمّْفُ" regex="false" match_case="false"/>
+<processor match="ًا فِ" replace="َمّْفِ" regex="false" match_case="false"/>
+<processor match="ٍا فَ" replace="ِمّْفَ" regex="false" match_case="false"/>
+<processor match="ٍا فُ" replace="ِمّْفُ" regex="false" match_case="false"/>
+<processor match="ٍا فِ" replace="ِمّْفِ" regex="false" match_case="false"/>
+<processor match="ٌا فَ" replace="ُمّْفَ" regex="false" match_case="false"/>
+<processor match="ٌا فُ" replace="ُمّْفُ" regex="false" match_case="false"/>
+<processor match="ٌا فِ" replace="ُمّْفِ" regex="false" match_case="false"/>
+<processor match="ً تَ" replace="َمّْتَ" regex="false" match_case="false"/>
+<processor match="ً تُ" replace="َمّْتُ" regex="false" match_case="false"/>
+<processor match="ً تِ" replace="َمّْتِ" regex="false" match_case="false"/>
+<processor match="ٍ تَ" replace="ِمّْتَ" regex="false" match_case="false"/>
+<processor match="ٍ تُ" replace="ِمّْتُ" regex="false" match_case="false"/>
+<processor match="ٍ تِ" replace="ِمّْتِ" regex="false" match_case="false"/>
+<processor match="ٌ تَ" replace="ُمّْتَ" regex="false" match_case="false"/>
+<processor match="ٌ تُ" replace="ُمّْتُ" regex="false" match_case="false"/>
+<processor match="ٌ تِ" replace="ُمّْتِ" regex="false" match_case="false"/>
+<processor match="ًا تَ" replace="َمّْتَ" regex="false" match_case="false"/>
+<processor match="ًا تُ" replace="َمّْتُ" regex="false" match_case="false"/>
+<processor match="ًا تِ" replace="َمّْتِ" regex="false" match_case="false"/>
+<processor match="ٍا تَ" replace="ِمّْتَ" regex="false" match_case="false"/>
+<processor match="ٍا تُ" replace="ِمّْتُ" regex="false" match_case="false"/>
+<processor match="ٍا تِ" replace="ِمّْتِ" regex="false" match_case="false"/>
+<processor match="ٌا تَ" replace="ُمّْتَ" regex="false" match_case="false"/>
+<processor match="ٌا تُ" replace="ُمّْتُ" regex="false" match_case="false"/>
+<processor match="ٌا تِ" replace="ُمّْتِ" regex="false" match_case="false"/>
+<!--Al-Ekhfaa-Tanween---->
+<processor match="ً ضَ" replace="َمّْضَ" regex="false" match_case="false"/>
+<processor match="ً ضُ" replace="َمّْضُ" regex="false" match_case="false"/>
+<processor match="ً ضِ" replace="َمّْضِ" regex="false" match_case="false"/>
+<processor match="ٍ ضَ" replace="ِمّْضَ" regex="false" match_case="false"/>
+<processor match="ٍ ضُ" replace="ِمّْضُ" regex="false" match_case="false"/>
+<processor match="ٍ ضِ" replace="ِمّْضِ" regex="false" match_case="false"/>
+<processor match="ٌ ضَ" replace="ُمّْضَ" regex="false" match_case="false"/>
+<processor match="ٌ ضُ" replace="ُمّْضُ" regex="false" match_case="false"/>
+<processor match="ٌ ضِ" replace="ُمّْضِ" regex="false" match_case="false"/>
+<processor match="ًا ضَ" replace="َمّْضَ" regex="false" match_case="false"/>
+<processor match="ًا ضُ" replace="َمّْضُ" regex="false" match_case="false"/>
+<processor match="ًا ضِ" replace="َمّْضِ" regex="false" match_case="false"/>
+<processor match="ٍا ضَ" replace="ِمّْضَ" regex="false" match_case="false"/>
+<processor match="ٍا ضُ" replace="ِمّْضُ" regex="false" match_case="false"/>
+<processor match="ٍا ضِ" replace="ِمّْضِ" regex="false" match_case="false"/>
+<processor match="ٌا ضَ" replace="ُمّْضَ" regex="false" match_case="false"/>
+<processor match="ٌا ضُ" replace="ُمّْضُ" regex="false" match_case="false"/>
+<processor match="ٌا ضِ" replace="ُمّْضِ" regex="false" match_case="false"/>
+<processor match="ً ظَ" replace="َمّْظَ" regex="false" match_case="false"/>
+<processor match="ً ظُ" replace="َمّْظُ" regex="false" match_case="false"/>
+<processor match="ً ظِ" replace="َمّْظِ" regex="false" match_case="false"/>
+<processor match="ٍ ظَ" replace="ِمّْظَ" regex="false" match_case="false"/>
+<processor match="ٍ ظُ" replace="ِمّْظُ" regex="false" match_case="false"/>
+<processor match="ٍ ظِ" replace="ِمّْظِ" regex="false" match_case="false"/>
+<processor match="ٌ ظَ" replace="ُمّْظَ" regex="false" match_case="false"/>
+<processor match="ٌ ظُ" replace="ُمّْظُ" regex="false" match_case="false"/>
+<processor match="ٌ ظِ" replace="ُمّْظِ" regex="false" match_case="false"/>
+<processor match="ًا ظَ" replace="َمّْظَ" regex="false" match_case="false"/>
+<processor match="ًا ظُ" replace="َمّْظُ" regex="false" match_case="false"/>
+<processor match="ًا ظِ" replace="َمّْظِ" regex="false" match_case="false"/>
+<processor match="ٍا ظَ" replace="ِمّْظَ" regex="false" match_case="false"/>
+<processor match="ٍا ظُ" replace="ِمّْظُ" regex="false" match_case="false"/>
+<processor match="ٍا ظِ" replace="ِمّْظِ" regex="false" match_case="false"/>
+<processor match="ٌا ظَ" replace="ُمّْظَ" regex="false" match_case="false"/>
+<processor match="ٌا ظُ" replace="ُمّْظُ" regex="false" match_case="false"/>
+<processor match="ٌا ظِ" replace="ُمّْظِ" regex="false" match_case="false"/>
+<!--Al-Eqlab---->
+<processor match="نْ بُ" replace="مممبُ" regex="false" match_case="false"/>
+<processor match="نْ بِ" replace="مممبِ" regex="false" match_case="false"/>
+<processor match="نْ بً" replace="مممبً" regex="false" match_case="false"/>
+<processor match="نْ بٍ" replace="مممبٍ" regex="false" match_case="false"/>
+<processor match="نْ بٌ" replace="مممبٌ" regex="false" match_case="false"/>
+<processor match="نْ بَّ" replace="مممبَّ" regex="false" match_case="false"/>
+<processor match="نْ بُّ" replace="مممبُّ" regex="false" match_case="false"/>
+<processor match="نْ بِّ" replace="مممبِّ" regex="false" match_case="false"/>
+<processor match="نْ بًّ" replace="مممبًّ" regex="false" match_case="false"/>
+<processor match="نْ بٍّ" replace="مممبٍّ" regex="false" match_case="false"/>
+<processor match="نْ بٌّ" replace="مممبٌّ" regex="false" match_case="false"/>
+<processor match="نْبَ" replace="مممبَ" regex="false" match_case="false"/>
+<processor match="نْبُ" replace="مممبُ" regex="false" match_case="false"/>
+<processor match="نْبِ" replace="مممبِ" regex="false" match_case="false"/>
+<processor match="نْبً" replace="مممبً" regex="false" match_case="false"/>
+<processor match="نْبٍ" replace="مممبٍ" regex="false" match_case="false"/>
+<processor match="نْبٌ" replace="مممبٌ" regex="false" match_case="false"/>
+<processor match="نْبَّ" replace="مممبَّ" regex="false" match_case="false"/>
+<processor match="نْبُّ" replace="مممبُّ" regex="false" match_case="false"/>
+<processor match="نْبِّ" replace="مممبِّ" regex="false" match_case="false"/>
+<processor match="نْبًّ" replace="مممبًّ" regex="false" match_case="false"/>
+<processor match="نْبٍّ" replace="مممبٍّ" regex="false" match_case="false"/>
+<processor match="نْبٌّ" replace="مممبٌّ" regex="false" match_case="false"/>
+<processor match="مْ بَ" replace="مّْبَ" regex="false" match_case="false"/>
+<processor match="مْ بُ" replace="مّْبُ" regex="false" match_case="false"/>
+<processor match="مْ بِ" replace="مّْبِ" regex="false" match_case="false"/>
+<processor match="مْ بً" replace="مْبً" regex="false" match_case="false"/>
+<processor match="مْ بٍ" replace="مْبٍ" regex="false" match_case="false"/>
+<processor match="مْ بٌ" replace="مْبٌ" regex="false" match_case="false"/>
+<processor match="مْ بَّ" replace="مْبَّ" regex="false" match_case="false"/>
+<processor match="مْ بُّ" replace="مْبُّ" regex="false" match_case="false"/>
+<processor match="مْ بِّ" replace="مْبِّ" regex="false" match_case="false"/>
+<processor match="مْ بًّ" replace="مْبًّ" regex="false" match_case="false"/>
+<processor match="مْ بٍّ" replace="مْبٍّ" regex="false" match_case="false"/>
+<processor match="مْ بٌّ" replace="وْبٌّ" regex="false" match_case="false"/>
+<processor match="مْبَ" replace="وْبَ" regex="false" match_case="false"/>
+<processor match="مْبُ" replace="مْبُ" regex="false" match_case="false"/>
+<processor match="مْبِ" replace="مْبِ" regex="false" match_case="false"/>
+<processor match="مْبً" replace="وْبً" regex="false" match_case="false"/>
+<processor match="مْبٍ" replace="مْبٍ" regex="false" match_case="false"/>
+<processor match="مْبٌ" replace="وْبٌ" regex="false" match_case="false"/>
+<processor match="مْبَّ" replace="وْبَّ" regex="false" match_case="false"/>
+<processor match="مْبُّ" replace="وْبُّ" regex="false" match_case="false"/>
+<processor match="مْبِّ" replace="وْبِّ" regex="false" match_case="false"/>
+<processor match="مْبًّ" replace="وْبًّ" regex="false" match_case="false"/>
+<processor match="مْبٍّ" replace="وْبٍّ" regex="false" match_case="false"/>
+<processor match="مْبٌّ" replace="وْبٌّ" regex="false" match_case="false"/>
+<processor match="مْ مَ" replace="ممممَ" regex="false" match_case="false"/>
+<processor match="مْ مُ" replace="ممممُ" regex="false" match_case="false"/>
+<processor match="مْ مِ" replace="ممممِ" regex="false" match_case="false"/>
+<processor match="مْ مً" replace="ممممً" regex="false" match_case="false"/>
+<processor match="مْ مٍ" replace="ممممٍ" regex="false" match_case="false"/>
+<processor match="مْ مٌ" replace="ممممٌ" regex="false" match_case="false"/>
+<processor match="مْ مَّ" replace="ممممَّ" regex="false" match_case="false"/>
+<processor match="مْ مُّ" replace="ممممُّ" regex="false" match_case="false"/>
+<processor match="مْ مِّ" replace="ممممِّ" regex="false" match_case="false"/>
+<processor match="مْ مًّ" replace="ممممًّ" regex="false" match_case="false"/>
+<processor match="مْ مٍّ" replace="ممممٍّ" regex="false" match_case="false"/>
+<processor match="مْ مٌّ" replace="ممممٌّ" regex="false" match_case="false"/>
+<processor match="مْمَ" replace="ممممَ" regex="false" match_case="false"/>
+<processor match="مْمُ" replace="ممممُ" regex="false" match_case="false"/>
+<processor match="مْمِ" replace="ممممِ" regex="false" match_case="false"/>
+<processor match="مْمً" replace="ممممً" regex="false" match_case="false"/>
+<processor match="مْمٍ" replace="ممممٍ" regex="false" match_case="false"/>
+<processor match="مْمٌ" replace="ممممٌ" regex="false" match_case="false"/>
+<processor match="مْمَّ" replace="ممممَّ" regex="false" match_case="false"/>
+<processor match="مْمُّ" replace="ممممُّ" regex="false" match_case="false"/>
+<processor match="مْمِّ" replace="ممممِّ" regex="false" match_case="false"/>
+<processor match="مْمًّ" replace="ممممًّ" regex="false" match_case="false"/>
+<processor match="مْمٍّ" replace="ممممٍّ" regex="false" match_case="false"/>
+<processor match="مْمٌّ" replace="ممممٌّ" regex="false" match_case="false"/>
+<processor match="ً بَ" replace="َمۤمۤمَۤ" regex="false" match_case="false"/>
+<processor match="ً بُ" replace="َمۤمۤمُۤ" regex="false" match_case="false"/>
+<processor match="ً بِ" replace="َمۤمۤمِۤ" regex="false" match_case="false"/>
+<processor match="ٍ بَ" replace="ِمۤمۤمَۤ" regex="false" match_case="false"/>
+<processor match="ٍ بُ" replace="ِمۤمۤمُۤ" regex="false" match_case="false"/>
+<processor match="ٍ بِ" replace="ِمۤمۤمِۤ" regex="false" match_case="false"/>
+<processor match="ٌ بَ" replace="ُمۤمۤمَۤ" regex="false" match_case="false"/>
+<processor match="ٌ بُ" replace="ُمۤمۤمُۤ" regex="false" match_case="false"/>
+<processor match="ٌ بِ" replace="ُمۤمۤمِۤ" regex="false" match_case="false"/>
+<processor match="ًا بَ" replace="َمۤمۤمَۤ" regex="false" match_case="false"/>
+<processor match="ًا بُ" replace="َمۤمۤمُۤ" regex="false" match_case="false"/>
+<processor match="ًا بِ" replace="َمۤمۤمِۤ" regex="false" match_case="false"/>
+<processor match="ٍا بَ" replace="ِمۤمۤمَۤ" regex="false" match_case="false"/>
+<processor match="ٍا بُ" replace="ِمۤمۤمُۤ" regex="false" match_case="false"/>
+<processor match="ٍا بِ" replace="ِمۤمۤمِۤ" regex="false" match_case="false"/>
+<processor match="ٌا بَ" replace="ُمۤمۤمَۤ" regex="false" match_case="false"/>
+<processor match="ٌا بُ" replace="ُمۤمۤمُۤ" regex="false" match_case="false"/>
+<processor match="ٌا بِ" replace="ُمۤمۤمِۤ" regex="false" match_case="false"/>
+<!--Additional---->
+<processor match="ى ا" replace="" regex="false" match_case="false"/>
+<processor match="نِ امْ" replace="نِمْ" regex="false" match_case="false"/>
+<processor match="و ا" replace="و" regex="false" match_case="false"/>
+<processor match="جُّ" replace="جج" regex="false" match_case="false"/>
+<processor match="دًى وَ" replace="دًوَ" regex="false" match_case="false"/>
+<processor match="لَ ا" replace="لَ" regex="false" match_case="false"/>
+<processor match="يًا بَ" replace="يًممبَ" regex="false" match_case="false"/>
+<processor match="اتَّ" replace="تَّ" regex="false" match_case="false"/>
+<processor match="الم(" replace="أَلِيْفْلَااْاْاْاْمِّيّْيْمْ" regex="false" match_case="false"/>
+<processor match="مُ ابْ" replace="مُبْ" regex="false" match_case="false"/>
+<processor match="دْ" replace="دّْ" regex="false" match_case="false"/>
+<processor match="مًّى" replace="مًّنْ" regex="false" match_case="false"/>
+<processor match="ةُّي" replace="تُيّْ" regex="false" match_case="false"/>
+<processor match="ةُم" replace="تُمّ" regex="false" match_case="false"/>
+<processor match="يُنَبِّئُكَ" replace="يُنَبِّئُوكَ" regex="false" match_case="false"/>
+<processor match="جِ " replace="جْ " regex="false" match_case="false"/>
+<processor match="تَوَلَّوْا" replace="تَوَلَّوْ" regex="false" match_case="false"/>
+<processor match="وَهُدًا وَ" replace="وَهُدًوَّ" regex="false" match_case="false"/>
+<processor match="لَوِ اسْ" replace="لَوِسْ" regex="false" match_case="false"/>
+<processor match="وُا" replace="وُو" regex="false" match_case="false"/>
+<processor match="دًا  وَ" replace="دَوَّ" regex="false" match_case="false"/>
+<processor match="الضَّالِّينَ" replace="الضَّالْلْيْيْنَ" regex="false" match_case="false"/>
+<processor match="ِ امّْ" replace="ِ مّْ" regex="false" match_case="false"/>
+<processor match="مَّ اهْ" replace="مَّهْ" regex="false" match_case="false"/>
+<processor match="ّّ" replace="ّ" regex="false" match_case="false"/>
+<processor match="هَا اسْ" replace="هَاسْ" regex="false" match_case="false"/>
+<processor match="أُولِي" replace="أُلِي" regex="false" match_case="false"/>
+<processor match="امْ" replace="مْ" regex="false" match_case="false"/>
+<processor match="ًامّْقَ" replace="َمّْقَ" regex="false" match_case="false"/>
+<processor match="ابّْ" replace="ابْ" regex="false" match_case="false"/>
+<processor match="اجّْ" replace="اجْ" regex="false" match_case="false"/>
+<processor match="اطّْ" replace="اطْ" regex="false" match_case="false"/>
+<processor match="ادّْ" replace="ادْ" regex="false" match_case="false"/>
+<processor match="اقّْ" replace="اقْ" regex="false" match_case="false"/>
+<processor match="المر" replace="أَلِيْفْلَااْاْاْاْمِّيّْيْمْراا" regex="false" match_case="false"/>
+<processor match="َّبّْ" replace="َّبْ" regex="false" match_case="false"/>
+<processor match="ِ اهْ" replace="ِ هْ" regex="false" match_case="false"/>
+<processor match="ئُ" replace="ئُو" regex="false" match_case="false"/>
+<processor match="لْ" replace="ل" regex="false" match_case="false"/>
+<!--End---->
+</processors>
