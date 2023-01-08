@@ -12,3 +12,18 @@ It is recommended that this code be imported into the Android application
 https://play.google.com/store/apps/details?id=hesoft.T2S
 OR
 https://play.google.com/store/apps/details?id=tts.reader
+
+Important:
+After installing one of the previous applications
+Please import the rules into it from the settings
+After that, the option of the floating button is activated, so that the verses and surahs to be read can be pasted
+
+The Qur’an has been reformatted And Add Color Uthmanic Fonts to suit the reader to read the verses correctly
+To obtain or use the Qur’an, please visit our channel, AyatQuran Telegram
+
+https://t.me/AyatCh
+
+Open Mushaf Version 16 And Copy Any Sura Or Aya to App T2S And Play Speech
+
+Regards...
+
