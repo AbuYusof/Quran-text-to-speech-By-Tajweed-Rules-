@@ -13,7 +13,7 @@ https://t.me/AyatCh
 Open Mushaf Version 16 And Copy Any Sura Or Aya to App T2S And Play Speech
 
 Regards...---->
-<!--verison.1.0 ---->
+<!--Beta.1.0 ---->
 <processor match="جُنْدٍ" replace=" جُووندٍ" regex="false" match_case="false"/>
 <processor match="اللَّه" replace="اْلْلَّاَّاْاْه" regex="false" match_case="false"/>
 <processor match="اللَّهِ_" replace="الْلَّاَّاهِ" regex="false" match_case="false"/>
