@@ -1,6 +1,8 @@
 <<?xml version="1.0" encoding="UTF-8"?><processors>
 <!--the code License by GNU General Public License is a free, copyleft license for
 software and other kinds of works.
+To get the latest code through the link
+https://github.com/AbuYusof/Quran-text-to-speech-By-Tajweed-Rules-/blob/main/Main/Quran-text-to-speech-By-Tajweed-Rules.xml
 Important:
 After installing one of the previous applications T2S Or TTS Reader - reads aloud books
 Please import the rules into it from the settings
@@ -12,7 +14,7 @@ Open Mushaf Version 16 And Copy Any Sura Or Aya to App T2S And Play Speech
 Regards...---->
 <!--Beta.1.0 ---->
 <processor match="QT2S_Beta.1.0" replace="QT2S_Beta.1.0" regex="false" match_case="false"/>
-<processor match="Created_By_WWW.t.me/AyatCh" replace="Created_By_WWW.t.me/AyatCh" regex="false" match_case="false"/>
+<processor match="Created_By_AbuYusof" replace="WWW.t.me/AyatCh" regex="false" match_case="false"/>
 <processor match="we are not responsible for any damages or errors" replace="This code is free and experimental only" regex="false" match_case="false"/>
 <!--General ---->
 <processor match="جُنْدٍ" replace=" جُووندٍ" regex="false" match_case="false"/>
