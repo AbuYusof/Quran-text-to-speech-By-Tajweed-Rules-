@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?><processors>
+<!--the code License by GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+To get the latest code through the link
+https://github.com/AbuYusof/Quran-text-to-speech-By-Tajweed-Rules-/blob/main/Main/Quran-text-to-speech-By-Tajweed-Rules.xml
+Important:
+After installing applications T2S
+https://play.google.com/store/apps/details?id=hesoft.T2S
+Please import the rules into it from the settings
+After that, the option of the floating button is activated, so that the verses and surahs to be read can be pasted
+((The Qur’an has been reformatted And Add Color Uthmanic Fonts to suit the reader to read the verses correctly
+To obtain or use the Qur’an, please visit our channel, AyatQuran Telegram))
+https://t.me/AyatCh
+Open Mushaf Version 16 And Copy Any Sura Or Aya to App T2S And Play Speech
+Regards...---->
+<!--Beta.1.0 ---->
+<processor match="QT2S_Beta.1.0" replace="QT2S_Beta.1.0"/>
+<processor match="Created_By_AbuYusof" replace="WWW.t.me/AyatCh"/>
+<processor match="we are not responsible for any damages or errors" replace="This code is free and experimental only"/>
+<!--General ---->
+<processor match="جُنْدٍ" replace=" جُووندٍ"/>
+<processor match="اللَّهَ" replace="اللَّاهَ"/>
+<processor match="ُ اللَّهُ" replace="ُلٓلٓلٓهُ"/>
+<processor match="َ اللَّهِ" replace="َلٓلٓلٓهِ"/>
+<processor match="دًى" replace="دًا "/>
+<processor match="لًا ۘ " replace="لا ۘ "/>
+<!--Sura_Start ---->
+<processor match="الم(" replace="أَلِفْلَاْااااآآآاااامْ مِّييييْيْيْيييمْ(" regex="false" match_case="true"/>
+<processor match="كهيعص(" replace="كَّااْاْاْاْفْهَّااْاْيَّااْاْاْ عَّييْيْينْ صَّااآآآآآادْ(" regex="false" match_case="true"/>
+<processor match="ص ۚ وَالْقُرْآنِ ذِي الذِّكْرِ(1)" replace="صَاااااآآآااااادْ ۚ وَالْقُرْآنِ ذِي الذِّكْرِ(1)" regex="false" match_case="true"/>
+<processor match="اللَّه_" replace=" اْلْلَّاَّاْاْه"/>
+<processor match="ن ۚ وَالْقَلَمِ وَمَا يَسْطُرُونَ(1)" replace="نُّ وْوْوْوْوْنّْ ۚ وَالْقَلَمِ وَمَا يَسْطُرُونَ(1) " regex="false" match_case="true"/>
+<processor match="ق ۚ وَالْقُرْآنِ الْمَجِيدِ(1)" replace=" قَّاااااآآآااااافْ ۚ وَالْقُرْآنِ الْمَجِيدِ(1)" regex="false" match_case="true"/>
+<processor match="حم(1)" replace="حَّااْمِيييْيْيْيْييمْ(1)"/>
+<processor match="المر ۚ تِلْكَ" replace="أَلِفْلَاْااااآآآاااامْ مِّييييْيْيْيييمْرَاا ۚ تِلْكَ"/>
+<processor match="الر ۚ تِلْكَ" replace="أَلِفْلَاْاْااآآآاااامْرَاا ۚ تِلْكَ" regex="false" match_case="true"/>
+<processor match="المص(1)" replace="أَلِفْلَاْااااآآآاااامْ مِّييييْيْيْيييمْ صَّاْاااآآآآآااادْ(1)" regex="false" match_case="true"/>
+<processor match="طه(1)" replace="طَّاْاْاْاْ هَاْاْاْاْ(1)" regex="false" match_case="true"/>
+<processor match="طسم(1)" replace="طَّى سِّييييْيْيْييينْ مِّييييْيْيْيييمْ(1)" regex="false" match_case="true"/>
+<processor match="طس ۚ تِلْكَ" replace="طَّاْاسِّييييْيْييينْ ۚ تِلْكَ" regex="false" match_case="true"/>
+<processor match="يس(1)" replace="يَّااسِّيييييْييينْ(1)" regex="false" match_case="true"/>
+<processor match="عسق(2)" replace="عَّييييْيْيْييينْ سِّييييْيْيْييينْ قَّاْاْااآآآاااافْ(2)" regex="false" match_case="true"/>
+<!--Remove-Aya-Number-->
+<processor match="[0-9]" replace=" " regex="true"/>
+<!--Auto-Stop-recommended&necessary-->
+<processor match="مًّى ۗ" replace="مَّا."/>
+<processor match="مًّى(" replace="مَّا("/>
+<processor match="مِ)" replace="م)" regex="false" match_case="true"/>
+<processor match="ُ (" replace="("/>
+<processor match="ُ(" replace="("/>
+<processor match="َ(" replace="("/>
+<processor match="ِ(" replace="("/>
+<processor match="ً(" replace="("/>
+<processor match="ٌ(" replace="("/>
+<processor match="ٍ(" replace="("/>
+<processor match=" ۘ " replace=" ۘ &#10; ‏ "/>
+<processor match="ۗ " replace="ۗ&#10; ‏ "/>
+<processor match="َ ۗ" replace="ۗ"/>
+<processor match="ِ ۗ" replace="ۗ"/>
+<processor match="ُ ۗ" replace="ۗ"/>
+<processor match="ً ۗ" replace="ۗ"/>
+<processor match="ٍ ۗ" replace="ۗ"/>
+<processor match="ٌ ۗ" replace="ۗ"/>
+<processor match="َّ ۗ" replace="ۗ"/>
+<processor match="ُّ ۗ" replace="ۗ"/>
+<processor match="ِّ ۗ" replace="ۗ"/>
+<processor match="ًّ ۗ" replace="ۗ"/>
+<processor match="ٍّ ۗ" replace="ۗ"/>
+<processor match="ٌّ ۗ" replace="ۗ"/>
+<processor match="ًا ۗ" replace="اۗ"/>
+<processor match="َ ۘ" replace="ۘ"/>
+<processor match="ِ ۘ" replace="ۘ"/>
+<processor match="ُ ۘ" replace="ۘ"/>
+<processor match="ً ۘ" replace="ۘ"/>
+<processor match="ٍ ۘ" replace="ۘ"/>
+<processor match="ٌ ۘ" replace="ۘ"/>
+<processor match="َّ ۘ" replace="ۘ"/>
+<processor match="ُّ ۘ" replace="ۘ"/>
+<processor match="ِّ ۘ" replace="ۘ"/>
+<processor match="ًّ ۘ" replace="ۘ"/>
+<processor match="ٍّ ۘ" replace="ۘ"/>
+<processor match="ٌّ ۘ" replace="ۘ"/>
+<processor match="ً اۘ" replace="اۘ"/>
+<processor match="ۜ " replace="ۜ&#10; ‏ "/>
+<processor match="َ ۜ" replace="ۜ"/>
+<processor match="ِ ۜ" replace="ۜ"/>
+<processor match="ُ ۜ" replace="ۜ"/>
+<processor match="ً ۜ" replace="ۜ"/>
+<processor match="ٍ ۜ" replace="ۜ"/>
+<processor match="ٌ ۜ" replace="ۜ"/>
+<processor match="َّ ۜ" replace="ۜ"/>
+<processor match="ُّ ۜ" replace="ۜ"/>
+<processor match="ِّ ۜ" replace="ۜ"/>
+<processor match="ًّ ۜ" replace="ۜ"/>
+<processor match="ٍّ ۜ" replace="ۜ"/>
+<processor match="ٌّ ۜ" replace="ۜ"/>
+<processor match="ً اۜ" replace="اۜ"/>
+<processor match="َ ۘ" replace="ۘ"/>
+<processor match="ۛ " replace="ۛ&#10; ‏ "/>
+<processor match="َ ۛ" replace="ۛ"/>
+<processor match="ِ ۛ" replace="ۛ"/>
+<processor match="ُ ۛ" replace="ۛ"/>
+<processor match="ً ۛ" replace="ۛ"/>
+<processor match="ٍ ۛ" replace="ۛ"/>
+<processor match="ٌ ۛ" replace="ۛ"/>
+<processor match="َّ ۛ" replace="ۛ"/>
+<processor match="ُّ ۛ" replace="ۛ"/>
+<processor match="ِّ ۛ" replace="ۛ"/>
+<processor match="ًّ ۛ" replace="ۛ"/>
+<processor match="ٍّ ۛ" replace="ۛ"/>
+<processor match="ٌّ ۛ" replace="ۛ"/>
+<processor match="ً اۛ" replace="اۛ"/>
+<processor match="َ ۘ" replace="ۘ"/>
+<processor match="ۚ " replace=""/>
+<processor match="ۖ " replace=""/>
+<processor match=" ۙ" replace=""/>
+<!--Additional---->
+<processor match="جَنَّا" replace="جَننا"/>
+<processor match="!1" replace="اللَّـٰاااه"/>
+<processor match="أَنْفُ" replace="آمّْفُ"/>
+<processor match="نْ لَ" replace="للَ"/>
+<processor match="ون(" replace="ووون("/>
+<processor match="ذٍ يَ" replace="ذِييَ"/>
+<processor match="ذٍ تُ" replace="ذِييتتُ"/>
+<processor match="رًا يَ" replace="ررايييَ" regex="true"/>
+<processor match="رًّا يَ" replace="ررايييَ"/>
+<processor match="كُفُوً" replace="كُفُووً"/>
+<processor match="تٍ مِ" replace="تمممِ"/>
+<processor match="لٍ وَ" replace="ليووَ"/>
+<processor match="بٍ وَ" replace="بيووَ"/>
+<processor match="بًّا فَ" replace="بّانففَ"/>
+<processor match="مْ مِ" replace="مْمِ"/>
+<processor match="تٍ مِ" replace="تييمِ"/>
+<processor match="رًا رَ" replace="رًررَ"/>
+<processor match="ئًا مَ" replace="ئًمممَ"/>
+<processor match="نٌ مِ" replace="نٌمممِ"/>
+<processor match="نًا يَ" replace="نًييَ"/>
+<processor match="وُو_" replace="وُ"/>
+<processor match="يَشَّقَّقُ" replace="يَششَّقَّقُ"/>
+<processor match="+" replace="ذذ"/>
+<processor match="مَّ اتَّ" replace="مَّتَّ" regex="false" match_case="true"/>
+<processor match="مْ مُ" replace="مممم" regex="false" match_case="true"/>
+<processor match="نِ اتَّ" replace="نيتَّ"/>
+<processor match="جَهَنَّ" replace="جَهَننَ"/>
+<processor match="مُ ابْ" replace="مُبْب"/>
+<processor match="يٍّ لَ" replace="يٍّيلَ"/>
+<processor match="هًا وَ" replace="هًووَ"/>
+<processor match="ا الصَّ" replace="صْصَّ"/>
+<processor match="يَنْقَ" replace="يَنننننقَ"/>
+<processor match="وَّ" replace="ووَ"/>
+<processor match="يَّنَّ" replace="ييَننَ"/>
+<processor match="بًا(" replace="با("/>
+<processor match="مًا(" replace="ما("/>
+<processor match="دًا(" replace="دا("/>
+<processor match="نًا(" replace="نا("/>
+<processor match="لًا(" replace="لا("/>
+<processor match="وُ_" replace="وُو"/>
+<!--Al-Galgala---->
+<processor match="قَ(" replace="قّْ("/>
+<processor match="قُ(" replace="قّْ("/>
+<processor match="قِ(" replace="قّْ("/>
+<processor match="قً(" replace="قّْ("/>
+<processor match="قٍ(" replace="قّْ("/>
+<processor match="قٌ(" replace="قّْ("/>
+<processor match="قْ" replace="قّْ"/>
+<processor match="طَ(" replace="طّْ("/>
+<processor match="طُ(" replace="طّْ("/>
+<processor match="طِ(" replace="طّْ("/>
+<processor match="طً(" replace="طّْ("/>
+<processor match="طٍ(" replace="طّْ("/>
+<processor match="طٌ(" replace="طّْ("/>
+<processor match="طْ" replace="طّْ"/>
+<processor match="ططئت" replace="طْتَ"/>
+<processor match="بَ(" replace="بّْ("/>
+<processor match="بُ(" replace="بّْ("/>
+<processor match="بِ(" replace="بّْ("/>
+<processor match="بً(" replace="بّْ("/>
+<processor match="بٍ(" replace="بّْ("/>
+<processor match="بٌ(" replace="بّْ("/>
+<processor match="بْ" replace="بّْ"/>
+<processor match="جَ(" replace="جّْ("/>
+<processor match="جُ(" replace="جّْ("/>
+<processor match="جِ(" replace="جّْ("/>
+<processor match="جً(" replace="جّْ("/>
+<processor match="جٍ(" replace="جّْ("/>
+<processor match="جٌ(" replace="جّْ("/>
+<processor match="جْ_" replace="جئْ" regex="false" match_case="true"/>
+<processor match="دْ(" replace="دّْ("/>
+<processor match="دُ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دِ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دً(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دٍ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دٌ(" replace="دّْ(" regex="false" match_case="true"/>
+<processor match="دَ(" replace="دّْ("/>
+<processor match="َ(" replace="("/>
+<processor match="ٌ(" replace="("/>
+<processor match="ً(" replace="("/>
+<processor match="ٍ(" replace="("/>
+<processor match="ٌ(" replace="("/>
+<processor match="ًا(" replace="ا("/>
+<processor match="ِ(" replace="("/>
+<processor match="ًا(" replace="ا("/>
+<processor match="ٍا(" replace="ا("/>
+<processor match="ٌا(" replace="ا("/>
+<!--Al-Edgham-------->
+<processor match="نْ يَ" replace="يَّ"/>
+<processor match="نْ يُ" replace="ييُ"/>
+<processor match="نْ يِ" replace="ييِ"/>
+<processor match="نْ يً" replace="ييً"/>
+<processor match="نْ يٍ" replace="ييٍ"/>
+<processor match="نْ يٌ" replace="ييٌ"/>
+<processor match="نْ يَّ" replace="ييَّ"/>
+<processor match="نْ يُّ" replace="ييُّ"/>
+<processor match="نْ يِّ" replace="ييِّ"/>
+<processor match="نْ يًّ" replace="ييًّ"/>
+<processor match="نْ يٍّ" replace="ييٍّ"/>
+<processor match="نْ يٌّ" replace="ييٌّ"/>
+<processor match="نْيَ" replace="مّْيَ"/>
+<processor match="نْيُ" replace="ييُ"/>
+<processor match="نْيِ" replace="ييِ"/>
+<processor match="نْيً" replace="ييً"/>
+<processor match="نْيٍ" replace="ييٍ"/>
+<processor match="نْيٌ" replace="ييٌ"/>
+<processor match="نْيَّ" replace="ييَّ"/>
+<processor match="نْيُّ" replace="ييُّ"/>
+<processor match="نْيِّ" replace="ييِّ"/>
+<processor match="نْيًّ" replace="ييًّ"/>
+<processor match="نْيٍّ" replace="ييٍّ"/>
+<processor match="نْيٌّ" replace="ييٌّ"/>
+<processor match="نْ رَ" replace="ررَ"/>
+<processor match="نْ رُ" replace="ررُ"/>
+<processor match="نْ رِ" replace="ررِ"/>
+<processor match="نْ رً" replace="ررً"/>
+<processor match="نْ رٍ" replace="ررٍ"/>
+<processor match="نْ رٌ" replace="ررٌ"/>
+<processor match="نْ رَّ" replace="ررَّ"/>
+<processor match="نْ رُّ" replace="ررُّ"/>
+<processor match="نْ رِّ" replace="ررِّ"/>
+<processor match="نْ رًّ" replace="ررًّ"/>
+<processor match="نْ رٍّ" replace="ررٍّ"/>
+<processor match="نْ رٌّ" replace="ررٌّ"/>
+<processor match="نْرَ" replace="ررَ"/>
+<processor match="نْرُ" replace="ررُ"/>
+<processor match="نْرِ" replace="ررِ"/>
+<processor match="نْرً" replace="ررً"/>
+<processor match="نْرٍ" replace="ررٍ"/>
+<processor match="نْرٌ" replace="ررٌ"/>
+<processor match="نْرَّ" replace="ررَّ"/>
+<processor match="نْرُّ" replace="ررُّ"/>
+<processor match="نْرِّ" replace="ررِّ"/>
+<processor match="نْرًّ" replace="ررًّ"/>
+<processor match="نْرٍّ" replace="ررٍّ"/>
+<processor match="نْرٌّ" replace="ررٌّ"/>
+<processor match="نْ مَ" replace="ممَ"/>
+<processor match="نْ مُ" replace="ممُ"/>
+<processor match="نْ مِ" replace="ممِ"/>
+<processor match="نْ مً" replace="ممً"/>
+<processor match="نْ مٍ" replace="ممٍ"/>
+<processor match="نْ مٌ" replace="ممٌ"/>
+<processor match="نْ مَّ" replace="ممَّ"/>
+<processor match="نْ مُّ" replace="ممُّ"/>
+<processor match="نْ مِّ" replace="ممِّ"/>
+<processor match="نْ مًّ" replace="ممًّ"/>
+<processor match="نْ مٍّ" replace="ممٍّ"/>
+<processor match="نْ مٌّ" replace="ممٌّ"/>
+<processor match="نْمَ" replace="ممَ"/>
+<processor match="نْمُ" replace="ممُ"/>
+<processor match="نْمِ" replace="ممِ"/>
+<processor match="نْمً" replace="ممً"/>
+<processor match="نْمٍ" replace="ممٍ"/>
+<processor match="نْمٌ" replace="ممٌ"/>
+<processor match="نْمَّ" replace="ممَّ"/>
+<processor match="نْمُّ" replace="ممُّ"/>
+<processor match="نْمِّ" replace="ممِّ"/>
+<processor match="نْمًّ" replace="ممًّ"/>
+<processor match="نْمٍّ" replace="ممٍّ"/>
+<processor match="نْمٌّ" replace="ممٌّ"/>
+<processor match="نْ لُ" replace="للُ"/>
+<processor match="نْ لِ" replace="للِ"/>
+<processor match="نْ لً" replace="للً"/>
+<processor match="نْ لٍ" replace="للٍ"/>
+<processor match="نْ لٌ" replace="للٌ"/>
+<processor match="نْ لَّ" replace="للَّ"/>
+<processor match="نْ لُّ" replace="للُّ"/>
+<processor match="نْ لِّ" replace="للِّ"/>
+<processor match="نْ لًّ" replace="للًّ"/>
+<processor match="نْ لٍّ" replace="للٍّ"/>
+<processor match="نْ لٌّ" replace="للٌّ"/>
+<processor match="نْلَ" replace="للَ"/>
+<processor match="نْلُ" replace="للُ"/>
+<processor match="نْلِ" replace="للِ"/>
+<processor match="نْلً" replace="للً"/>
+<processor match="نْلٍ" replace="للٍ"/>
+<processor match="نْلٌ" replace="للٌ"/>
+<processor match="نْلَّ" replace="للَّ"/>
+<processor match="نْلُّ" replace="للُّ"/>
+<processor match="نْلِّ" replace="للِّ"/>
+<processor match="نْلًّ" replace="للًّ"/>
+<processor match="نْلٍّ" replace="للٍّ"/>
+<processor match="نْلٌّ" replace="للٌّ"/>
+<processor match="نْ وَ" replace="ووَ"/>
+<processor match="نْ وُ" replace="ووُ"/>
+<processor match="نْ وِ" replace="ووِ"/>
+<processor match="نْ وً" replace="ووً"/>
+<processor match="نْ وٍ" replace="ووٍ"/>
+<processor match="نْ وٌ" replace="ووٌ"/>
+<processor match="نْ وَّ" replace="ووَّ"/>
+<processor match="نْ وُّ" replace="ووُّ"/>
+<processor match="نْ وِّ" replace="ووِّ"/>
+<processor match="نْ وًّ" replace="ووًّ"/>
+<processor match="نْ وٍّ" replace="ووٍّ"/>
+<processor match="نْ وٌّ" replace="ووٌّ"/>
+<processor match="نْوَ" replace="ووَ"/>
+<processor match="نْوُ" replace="ووُ"/>
+<processor match="نْوِ" replace="ووِ"/>
+<processor match="نْوً" replace="ووً"/>
+<processor match="نْوٍ" replace="ووٍ"/>
+<processor match="نْوٌ" replace="ووٌ"/>
+<processor match="نْوَّ" replace="ووَّ"/>
+<processor match="نْوُّ" replace="ووُّ"/>
+<processor match="نْوِّ" replace="ووِّ"/>
+<processor match="نْوًّ" replace="ووًّ"/>
+<processor match="نْوٍّ" replace="ووٍّ"/>
+<processor match="نْوٌّ" replace="ووٌّ"/>
+<processor match="نْ نَ" replace="ننَ"/>
+<processor match="نْ نُ" replace="ننُ"/>
+<processor match="نْ نِ" replace="ننِ"/>
+<processor match="نْ نً" replace="ننً"/>
+<processor match="نْ نٍ" replace="ننٍ"/>
+<processor match="نْ نٌ" replace="ننٌ"/>
+<processor match="نْ نَّ" replace="ننَّ"/>
+<processor match="نْ نُّ" replace="ننُّ"/>
+<processor match="نْ نِّ" replace="ننِّ"/>
+<processor match="نْ نًّ" replace="ننًّ"/>
+<processor match="نْ نٍّ" replace="ننٍّ"/>
+<processor match="نْ نٌّ" replace="ننٌّ"/>
+<processor match="نْنَ" replace="ننَ"/>
+<processor match="نْنُ" replace="ننُ"/>
+<processor match="نْنِ" replace="ننِ"/>
+<processor match="نْنً" replace="ننً"/>
+<processor match="نْنٍ" replace="ننٍ"/>
+<processor match="نْنٌ" replace="ننٌ"/>
+<processor match="نْنَّ" replace="ننَّ"/>
+<processor match="نْنُّ" replace="ننُّ"/>
+<processor match="نْنِّ" replace="ننِّ"/>
+<processor match="نْنًّ" replace="ننًّ"/>
+<processor match="نْنٍّ" replace="ننٍّ"/>
+<processor match="نْنٌّ" replace="ننٌّ"/>
+<!--Al-Edgham_Tanween-------->
+<processor match="ً يَ" replace="ًيَّ"/>
+<processor match="ً يُ" replace="ً يُ"/>
+<processor match="ً يِ" replace="ً يِ"/>
+<processor match="ٍ يَ" replace="ِّييَ"/>
+<processor match="ٍ يُ" replace="ٍيُ"/>
+<processor match="ٍ يِ" replace="ٍِّ يّْيِ"/>
+<processor match="ٌ يَ" replace="ُّييَ"/>
+<processor match="ٌ يُ" replace="ُّييُ"/>
+<processor match="ٌ يِ" replace="ُّييِ"/>
+<processor match="ًا يَ" replace="َّييَ"/>
+<processor match="ًا يُ" replace="َّييُ"/>
+<processor match="ًا يِ" replace="َّييِ"/>
+<processor match="ٍا يَ" replace="ِّييَ"/>
+<processor match="ٍا يُ" replace="ِّييُ"/>
+<processor match="ٍا يِ" replace="ِّييِ"/>
+<processor match="ٌا يَ" replace="ُّييَ"/>
+<processor match="ٌا يُ" replace="ُّييُ"/>
+<processor match="ٌا يِ" replace="ُّييِ"/>
+<processor match="ً رَ" replace="َّررَ"/>
+<processor match="ً رُ" replace="َّررُ"/>
+<processor match="ً رِ" replace="َّررِ"/>
+<processor match="ٍ رَ" replace="ِّررَ"/>
+<processor match="ٍ رُ" replace="ِّررُ"/>
+<processor match="ٍ رِ" replace="ِّررِ"/>
+<processor match="ٌ رَ" replace="ُّررَ"/>
+<processor match="ٌ رُ" replace="ُّررُ"/>
+<processor match="ٌ رِ" replace="ُّررِ"/>
+<processor match="ًا رَ" replace="َّررَ"/>
+<processor match="ًا رُ" replace="َّررُ"/>
+<processor match="ًا رِ" replace="َّررِ"/>
+<processor match="ٍا رَ" replace="ِّررَ"/>
+<processor match="ٍا رُ" replace="ِّررُ"/>
+<processor match="ٍا رِ" replace="ِّررِ"/>
+<processor match="ٌا رَ" replace="ُّررَ"/>
+<processor match="ٌا رُ" replace="ُّررُ"/>
+<processor match="ٌا رِ" replace="ُّررِ"/>
+<processor match="ً مَ" replace="َّممَ"/>
+<processor match="ً مُ" replace="َّممُ"/>
+<processor match="ً مِ" replace="َّممِ"/>
+<processor match="ٍ مَ" replace="ِّممَ"/>
+<processor match="ٍ مُ" replace="ِّممُ"/>
+<processor match="ٍ مِ" replace="ِّممِ"/>
+<processor match="ٌ مَ" replace="ُّممَ"/>
+<processor match="ٌ مُ" replace="ُمّْمُ"/>
+<processor match="ٌ مِ" replace="ُّممِ"/>
+<processor match="ًا مَ" replace="َّممَ"/>
+<processor match="ًا مُ" replace="َّممُ"/>
+<processor match="ًا مِ" replace="َّممِ"/>
+<processor match="ٍا مَ" replace="ِّممَ"/>
+<processor match="ٍا مُ" replace="ِّممُ"/>
+<processor match="ٍا مِ" replace="ِّممِ"/>
+<processor match="ٌا مَ" replace="ُّممَ"/>
+<processor match="ٌا مُ" replace="ُّممُ"/>
+<processor match="ٌا مِ" replace="ُّممِ"/>
+<processor match="ً لَ" replace="َّللَ"/>
+<processor match="ً لُ" replace="َّللُ"/>
+<processor match="ً لِ" replace="َّللِ"/>
+<processor match="ٍ لَ" replace="ِّللَ"/>
+<processor match="ٍ لُ" replace="ِّللُ"/>
+<processor match="ٍ لِ" replace="ِّللِ"/>
+<processor match="ٌ لَ" replace="ُّللَ"/>
+<processor match="ٌ لُ" replace="ُّللُ"/>
+<processor match="ٌ لِ" replace="ُّللِ"/>
+<processor match="ًا لَ" replace="َّللَ"/>
+<processor match="ًا لُ" replace="َّللُ"/>
+<processor match="ًا لِ" replace="َّللِ"/>
+<processor match="ٍا لَ" replace="ِّللَ"/>
+<processor match="ٍا لُ" replace="ِّللُ"/>
+<processor match="ٍا لِ" replace="ِّللِ"/>
+<processor match="ٌا لَ" replace="ُّللَ"/>
+<processor match="ٌا لُ" replace="ُّللُ"/>
+<processor match="ٌا لِ" replace="ُّللِ"/>
+<processor match="ً وَ" replace="َّوَّ"/>
+<processor match="ً وُ" replace="َّوُّ"/>
+<processor match="ً وِ" replace="َّوِّ"/>
+<processor match="ٍ وَ" replace="ِّوَّ"/>
+<processor match="ٍ وُ" replace="ِّوٌُ"/>
+<processor match="ٍ وِ" replace="ِّوِّ"/>
+<processor match="ٌ وَ" replace="ُّوَّ"/>
+<processor match="ٌ وُ" replace="ُّوُّ"/>
+<processor match="ٌ وِ" replace="ُّوِّ"/>
+<processor match="ًا وَ" replace="َّوَّ"/>
+<processor match="ًا وُ" replace="َّوُّ"/>
+<processor match="ًا وِ" replace="َّوِّ"/>
+<processor match="ٍا وَ" replace="ِّوَّ"/>
+<processor match="ٍا وُ" replace="ِّوُّ"/>
+<processor match="ٍا وِ" replace="ِّوِّ"/>
+<processor match="ٌا وَ" replace="ُّوَّ"/>
+<processor match="ٌا وُ" replace="ُّوُّ"/>
+<processor match="ٌا وِ" replace="ُّوِّ"/>
+<processor match="ً نَ" replace="َّننَ"/>
+<processor match="ً نُ" replace="َّننُ"/>
+<processor match="ً نِ" replace="َّننِ"/>
+<processor match="ٍ نَ" replace="ِّننَ"/>
+<processor match="ٍ نُ" replace="ِّننُ"/>
+<processor match="ٍ نِ" replace="ِّننِ"/>
+<processor match="ٌ نَ" replace="ُّننَ"/>
+<processor match="ٌ نُ" replace="ُّننُ"/>
+<processor match="ٌ نِ" replace="ُّننِ"/>
+<processor match="ًا نَ" replace="َّننَ"/>
+<processor match="ًا نُ" replace="َّننُ"/>
+<processor match="ًا نِ" replace="َّننِ"/>
+<processor match="ٍا نَ" replace="ِّننَ"/>
+<processor match="ٍا نُ" replace="ِّننُ"/>
+<processor match="ٍا نِ" replace="ِّننِ"/>
+<processor match="ٌا نَ" replace="ُّننَ"/>
+<processor match="ٌا نُ" replace="ُّننُ"/>
+<processor match="ٌا نِ" replace="ُّننِ"/>
+<!--Al-Edgham-------->
+<processor match="نْ صَ" replace="مّْصَ"/>
+<processor match="نْ صُ" replace="مّْصُ"/>
+<processor match="نْ صِ" replace="مّْصِ"/>
+<processor match="نْ صً" replace="مّْصً"/>
+<processor match="نْ صٍ" replace="مّْصٍ"/>
+<processor match="نْ صٌ" replace="مّْصٌ"/>
+<processor match="نْ صَّ" replace="مّْصَّ"/>
+<processor match="نْ صُّ" replace="مّْصُّ"/>
+<processor match="نْ صِّ" replace="مّْصِّ"/>
+<processor match="نْ صًّ" replace="مّْصًّ"/>
+<processor match="نْ صٍّ" replace="مّْصٍّ"/>
+<processor match="نْ صٌّ" replace="مّْصٌّ"/>
+<processor match="نْصَ" replace="مّْصَ"/>
+<processor match="نْصُ" replace="مّْصُ"/>
+<processor match="نْصِ" replace="مّْصِ"/>
+<processor match="نْصً" replace="مّْصً"/>
+<processor match="نْصٍ" replace="مّْصٍ"/>
+<processor match="نْصٌ" replace="مّْصٌ"/>
+<processor match="نْصَّ" replace="مّْصَّ"/>
+<processor match="نْصُّ" replace="مّْصُّ"/>
+<processor match="نْصِّ" replace="مّْصِّ"/>
+<processor match="نْصًّ" replace="مّْصًّ"/>
+<processor match="نْصٍّ" replace="مّْصٍّ"/>
+<processor match="نْصٌّ" replace="مّْصٌّ"/>
+<processor match="نْ ذَ" replace="مّْذَ"/>
+<processor match="نْ ذُ" replace="مّْذُ"/>
+<processor match="نْ ذِ" replace="مّْذِ"/>
+<processor match="نْ ذً" replace="مّْذً"/>
+<processor match="نْ ذٍ" replace="مّْذٍ"/>
+<processor match="نْ ذٌ" replace="مّْذٌ"/>
+<processor match="نْ ذَّ" replace="مّْذَّ"/>
+<processor match="نْ ذُّ" replace="مّْذُّ"/>
+<processor match="نْ ذِّ" replace="مّْذِّ"/>
+<processor match="نْ ذًّ" replace="مّْذًّ"/>
+<processor match="نْ ذٍّ" replace="مّْذٍّ"/>
+<processor match="نْ ذٌّ" replace="مّْذٌّ"/>
+<processor match="نْذَ" replace="مّْذَ"/>
+<processor match="نْذُ" replace="مّْذُ"/>
+<processor match="نْذِ" replace="مّْذِ"/>
+<processor match="نْذً" replace="مّْذً"/>
+<processor match="نْذٍ" replace="مّْذٍ"/>
+<processor match="نْذٌ" replace="مّْذٌ"/>
+<processor match="نْذَّ" replace="مّْذَّ"/>
+<processor match="نْذُّ" replace="مّْذُّ"/>
+<processor match="نْذِّ" replace="مّْذِّ"/>
+<processor match="نْذًّ" replace="مّْذًّ"/>
+<processor match="نْذٍّ" replace="مّْذٍّ"/>
+<processor match="نْذٌّ" replace="مّْذٌّ"/>
+<processor match="نْ ثَ" replace="مّْثَ"/>
+<processor match="نْ ثُ" replace="ىثُ"/>
+<processor match="نْ ثِ" replace="مّْثثِ"/>
+<processor match="نْ ثً" replace="مّْثثً"/>
+<processor match="نْ ثٍ" replace="مّْثثٍ"/>
+<processor match="نْ ثٌ" replace="مّْثثٌ"/>
+<processor match="نْ ثَّ" replace="مّْثثَّ"/>
+<processor match="نْ ثُّ" replace="مّْثثُّ"/>
+<processor match="نْ ثِّ" replace="مّْثثِّ"/>
+<processor match="نْ ثًّ" replace="مّْثثًّ"/>
+<processor match="نْ ثٍّ" replace="مّْثثٍّ"/>
+<processor match="نْ ثٌّ" replace="مّْثثٌّ"/>
+<processor match="نْثَ" replace="مّْثَ"/>
+<processor match="نْثُ" replace="مّْثثُ"/>
+<processor match="نْثِ" replace="مّْثثِ"/>
+<processor match="نْثً" replace="مّْثثً"/>
+<processor match="نْثٍ" replace="مّْثثٍ"/>
+<processor match="نْثٌ" replace="مّْثثٌ"/>
+<processor match="نْثَّ" replace="مّْثثَّ"/>
+<processor match="نْثُّ" replace="مّْثثُّ"/>
+<processor match="نْثِّ" replace="مّْثثِّ"/>
+<processor match="نْثًّ" replace="مّْثثًّ"/>
+<processor match="نْثٍّ" replace="مّْثثٍّ"/>
+<processor match="نْثٌّ" replace="مّْثثٌّ"/>
+<processor match="نْ كَ" replace="مّْكَ"/>
+<processor match="نْ كُ" replace="مّْكُ"/>
+<processor match="نْ كِ" replace="مّْكِ"/>
+<processor match="نْ كً" replace="مّْكً"/>
+<processor match="نْ كٍ" replace="مّْكٍ"/>
+<processor match="نْ كٌ" replace="مّْكٌ"/>
+<processor match="نْ كَّ" replace="مّْكَّ"/>
+<processor match="نْ كُّ" replace="مّْكُّ"/>
+<processor match="نْ كِّ" replace="مّْكِّ"/>
+<processor match="نْ كًّ" replace="مّْكًّ"/>
+<processor match="نْ كٍّ" replace="مّْكٍّ"/>
+<processor match="نْ كٌّ" replace="مّْكٌّ"/>
+<processor match="نْكَ" replace="مّْكَ"/>
+<processor match="نْكُ" replace="مّْكُ"/>
+<processor match="نْكِ" replace="مّْكِ"/>
+<processor match="نْكً" replace="مّْكً"/>
+<processor match="نْكٍ" replace="مّْكٍ"/>
+<processor match="نْكٌ" replace="مّْكٌ"/>
+<processor match="نْكَّ" replace="مّْكَّ"/>
+<processor match="نْكُّ" replace="مّْكُّ"/>
+<processor match="نْكِّ" replace="مّْكِّ"/>
+<processor match="نْكًّ" replace="مّْكًّ"/>
+<processor match="نْكٍّ" replace="مّْكٍّ"/>
+<processor match="نْكٌّ" replace="مّْكٌّ"/>
+<processor match="نْ جَ" replace="مّْجَ"/>
+<processor match="نْ جُ" replace="مّْجُ"/>
+<processor match="نْ جِ" replace="مّْجِ"/>
+<processor match="نْ جً" replace="مّْجً"/>
+<processor match="نْ جٍ" replace="مّْجٍ"/>
+<processor match="نْ جٌ" replace="مّْجٌ"/>
+<processor match="نْ جَّ" replace="مّْجَّ"/>
+<processor match="نْ جُّ" replace="مّْجُّ"/>
+<processor match="نْ جِّ" replace="مّْجِّ"/>
+<processor match="نْ جًّ" replace="مّْجًّ"/>
+<processor match="نْ جٍّ" replace="مّْجٍّ"/>
+<processor match="نْ جٌّ" replace="مّْجٌّ"/>
+<processor match="نْجَ" replace="مّْجَ"/>
+<processor match="نْجُ" replace="مّْجُ"/>
+<processor match="نْجِ" replace="مّْجِ"/>
+<processor match="نْجً" replace="مّْجً"/>
+<processor match="نْجٍ" replace="مّْجٍ"/>
+<processor match="نْجٌ" replace="مّْجٌ"/>
+<processor match="نْجَّ" replace="مّْجَّ"/>
+<processor match="نْجُّ" replace="مّْجُّ"/>
+<processor match="نْجِّ" replace="مّْجِّ"/>
+<processor match="نْجًّ" replace="مّْجًّ"/>
+<processor match="نْجٍّ" replace="مّْجٍّ"/>
+<processor match="نْجٌّ" replace="مّْجٌّ"/>
+<processor match="نْ شَ" replace="مّْشَ"/>
+<processor match="نْ شُ" replace="مّْشُ"/>
+<processor match="نْ شِ" replace="مّْشِ"/>
+<processor match="نْ شً" replace="مّْشً"/>
+<processor match="نْ شٍ" replace="مّْشٍ"/>
+<processor match="نْ شٌ" replace="مّْشٌ"/>
+<processor match="نْ شَّ" replace="مّْشَّ"/>
+<processor match="نْ شُّ" replace="مّْشُّ"/>
+<processor match="نْ شِّ" replace="مّْشِّ"/>
+<processor match="نْ شًّ" replace="مّْشًّ"/>
+<processor match="نْ شٍّ" replace="مّْشٍّ"/>
+<processor match="نْ شٌّ" replace="مّْشٌّ"/>
+<processor match="نْشَ" replace="مّْشَ"/>
+<processor match="نْشُ" replace="مّْشُ"/>
+<processor match="نْشِ" replace="مّْشِ"/>
+<processor match="نْشً" replace="مّْشً"/>
+<processor match="نْشٍ" replace="مّْشٍ"/>
+<processor match="نْشٌ" replace="مّْشٌ"/>
+<processor match="نْشَّ" replace="مّْشَّ"/>
+<processor match="نْشُّ" replace="مّْشُّ"/>
+<processor match="نْشِّ" replace="مّْشِّ"/>
+<processor match="نْشًّ" replace="مّْشًّ"/>
+<processor match="نْشٍّ" replace="مّْشٍّ"/>
+<processor match="نْشٌّ" replace="مّْشٌّ"/>
+<processor match="نْ قَ" replace="مّْقَ"/>
+<processor match="نْ قُ" replace="مّْقُ"/>
+<processor match="نْ قِ" replace="مّْقِ"/>
+<processor match="نْ قً" replace="مّْقً"/>
+<processor match="نْ قٍ" replace="مّْقٍ"/>
+<processor match="نْ قٌ" replace="مّْقٌ"/>
+<processor match="نْ قَّ" replace="مّْقَّ"/>
+<processor match="نْ قُّ" replace="مّْقُّ"/>
+<processor match="نْ قِّ" replace="مّْقِّ"/>
+<processor match="نْ قًّ" replace="مّْقًّ"/>
+<processor match="نْ قٍّ" replace="مّْقٍّ"/>
+<processor match="نْ قٌّ" replace="مّْقٌّ"/>
+<processor match="نْقَ" replace="مّْقَ"/>
+<processor match="نْقُ" replace="مّْقُ"/>
+<processor match="نْقِ" replace="مّْقِ"/>
+<processor match="نْقً" replace="مّْقً"/>
+<processor match="نْقٍ" replace="مّْقٍ"/>
+<processor match="نْقٌ" replace="مّْقٌ"/>
+<processor match="نْقَّ" replace="مّْقَّ"/>
+<processor match="نْقُّ" replace="مّْقُّ"/>
+<processor match="نْقِّ" replace="مّْقِّ"/>
+<processor match="نْقًّ" replace="مّْقًّ"/>
+<processor match="نْقٍّ" replace="مّْقٍّ"/>
+<processor match="نْقٌّ" replace="مّْقٌّ"/>
+<processor match="نْ سَ" replace="مّْسَ"/>
+<processor match="نْ سُ" replace="مّْسُ"/>
+<processor match="نْ سِ" replace="مّْسِ"/>
+<processor match="نْ سً" replace="مّْسً"/>
+<processor match="نْ سٍ" replace="مّْسٍ"/>
+<processor match="نْ سٌ" replace="مّْسٌ"/>
+<processor match="نْ سَّ" replace="مّْسَّ"/>
+<processor match="نْ سُّ" replace="مّْسُّ"/>
+<processor match="نْ سِّ" replace="مّْسِّ"/>
+<processor match="نْ سًّ" replace="مّْسًّ"/>
+<processor match="نْ سٍّ" replace="مّْسٍّ"/>
+<processor match="نْ سٌّ" replace="مّْسٌّ"/>
+<processor match="نْسَ" replace="مْسَ"/>
+<processor match="نْسُ" replace="مّْسسُ"/>
+<processor match="نْسِ" replace="مّْسِ"/>
+<processor match="نْسً" replace="مّْسسً"/>
+<processor match="نْسٍ" replace="مّْسسٍ"/>
+<processor match="نْسٌ" replace="مّْسسٌ"/>
+<processor match="نْسَّ" replace="مّْسسَّ"/>
+<processor match="نْسُّ" replace="مّْسسُّ"/>
+<processor match="نْسِّ" replace="مّْسسِّ"/>
+<processor match="نْسًّ" replace="مّْسسًّ"/>
+<processor match="نْسٍّ" replace="مّْسسٍّ"/>
+<processor match="نْسٌّ" replace="مّْسسٌّ"/>
+<processor match="نْ دَ" replace="مّْدَ"/>
+<processor match="نْ دُ" replace="مّْدُ"/>
+<processor match="نْ دِ" replace="مّْدِ"/>
+<processor match="نْ دً" replace="مْدً"/>
+<processor match="نْ دٍ" replace="مّْدٍ"/>
+<processor match="نْ دٌ" replace="مّْدٌ"/>
+<processor match="نْ دَّ" replace="مّْدَّ"/>
+<processor match="نْ دُّ" replace="مّْدُّ"/>
+<processor match="نْ دِّ" replace="مّْدِّ"/>
+<processor match="نْ دًّ" replace="مّْدًّ"/>
+<processor match="نْ دٍّ" replace="مّْدٍّ"/>
+<processor match="نْ دٌّ" replace="مّْدٌّ"/>
+<processor match="نْدَ" replace="مّْدَ"/>
+<processor match="نْدُ" replace="مّْدُ"/>
+<processor match="نْدِ" replace="مّْدِ"/>
+<processor match="نْدً" replace="مّْدً"/>
+<processor match="نْدٍ" replace="مّْدٍ"/>
+<processor match="نْدٌ" replace="مّْدٌ"/>
+<processor match="نْدَّ" replace="مّْدَّ"/>
+<processor match="نْدُّ" replace="مّْدُّ"/>
+<processor match="نْدِّ" replace="مّْدِّ"/>
+<processor match="نْدًّ" replace="مّْدًّ"/>
+<processor match="نْدٍّ" replace="مّْدٍّ"/>
+<processor match="نْدٌّ" replace="مّْدٌّ"/>
+<processor match="نْ طَ" replace="مّْطَ"/>
+<processor match="نْ طُ" replace="مّْطُ"/>
+<processor match="نْ طِ" replace="مّْطِ"/>
+<processor match="نْ طً" replace="مّْطً"/>
+<processor match="نْ طٍ" replace="مّْطٍ"/>
+<processor match="نْ طٌ" replace="مّْطٌ"/>
+<processor match="نْ طَّ" replace="مّْطَّ"/>
+<processor match="نْ طُّ" replace="مّْطُّ"/>
+<processor match="نْ طِّ" replace="مّْطِّ"/>
+<processor match="نْ طًّ" replace="مّْطًّ"/>
+<processor match="نْ طٍّ" replace="مّْطٍّ"/>
+<processor match="نْ طٌّ" replace="مّْطٌّ"/>
+<processor match="نْطَ" replace="مّْطَ"/>
+<processor match="نْطُ" replace="مّْطُ"/>
+<processor match="نْطِ" replace="مّْطِ"/>
+<processor match="نْطً" replace="مّْطً"/>
+<processor match="نْطٍ" replace="مّْطٍ"/>
+<processor match="نْطٌ" replace="مّْطٌ"/>
+<processor match="نْطَّ" replace="مّْطَّ"/>
+<processor match="نْطُّ" replace="مّْطُّ"/>
+<processor match="نْطِّ" replace="مّْطِّ"/>
+<processor match="نْطًّ" replace="مّْطًّ"/>
+<processor match="نْطٍّ" replace="مّْطٍّ"/>
+<processor match="نْطٌّ" replace="مّْطٌّ"/>
+<processor match="نْ زَ" replace="مّْزَ"/>
+<processor match="نْ زُ" replace="مّْزُ"/>
+<processor match="نْ زِ" replace="مّْزِ"/>
+<processor match="نْ زً" replace="مّْزً"/>
+<processor match="نْ زٍ" replace="مّْزٍ"/>
+<processor match="نْ زٌ" replace="مّْزٌ"/>
+<processor match="نْ زَّ" replace="مّْزَّ"/>
+<processor match="نْ زُّ" replace="مّْزُّ"/>
+<processor match="نْ زِّ" replace="مّْزِّ"/>
+<processor match="نْ زًّ" replace="مّْزًّ"/>
+<processor match="نْ زٍّ" replace="مّْزٍّ"/>
+<processor match="نْ زٌّ" replace="مّْزٌّ"/>
+<processor match="نْزَ" replace="مّْزَ"/>
+<processor match="نْزُ" replace="مّْزُ"/>
+<processor match="نْزِ" replace="مّْزِ"/>
+<processor match="نْزً" replace="مّْزً"/>
+<processor match="نْزٍ" replace="مّْزٍ"/>
+<processor match="نْزٌ" replace="مّْزٌ"/>
+<processor match="نْزَّ" replace="مّْزَّ"/>
+<processor match="نْزُّ" replace="مّْزُّ"/>
+<processor match="نْزِّ" replace="مّْزِّ"/>
+<processor match="نْزًّ" replace="مّْزًّ"/>
+<processor match="نْزٍّ" replace="مّْزٍّ"/>
+<processor match="نْزٌّ" replace="مّْزٌّ"/>
+<processor match="نْ فَ" replace="مّْفَ"/>
+<processor match="نْ فُ" replace="مّْفُ"/>
+<processor match="نْ فِ" replace="مّْفِ"/>
+<processor match="نْ فً" replace="مّْفً"/>
+<processor match="نْ فٍ" replace="مّْفٍ"/>
+<processor match="نْ فٌ" replace="مّْفٌ"/>
+<processor match="نْ فَّ" replace="مّْفَّ"/>
+<processor match="نْ فُّ" replace="مّْفُّ"/>
+<processor match="نْ فِّ" replace="مّْفِّ"/>
+<processor match="نْ فًّ" replace="مّْفًّ"/>
+<processor match="نْ فٍّ" replace="مّْفٍّ"/>
+<processor match="نْ فٌّ" replace="مّْفٌّ"/>
+<processor match="نْفَ" replace="مّْفَ"/>
+<processor match="نْفُ" replace="مّْفُ"/>
+<processor match="نْفِ" replace="مّْفِ"/>
+<processor match="نْفً" replace="مّْفً"/>
+<processor match="نْفٍ" replace="مّْفٍ"/>
+<processor match="نْفٌ" replace="مّْفٌ"/>
+<processor match="نْفَّ" replace="مّْفَّ"/>
+<processor match="نْفُّ" replace="مّْفُّ"/>
+<processor match="نْفِّ" replace="مّْفِّ"/>
+<processor match="نْفًّ" replace="مّْفًّ"/>
+<processor match="نْفٍّ" replace="مّْفٍّ"/>
+<processor match="نْفٌّ" replace="مّْفٌّ"/>
+<processor match="نْ تَ" replace="مّْتَ"/>
+<processor match="نْ تُ" replace="مّْتُ"/>
+<processor match="نْ تِ" replace="مّْتِ"/>
+<processor match="نْ تً" replace="مّْتً"/>
+<processor match="نْ تٍ" replace="مّْتٍ"/>
+<processor match="نْ تٌ" replace="مّْتٌ"/>
+<processor match="نْ تَّ" replace="مّْتَّ"/>
+<processor match="نْ تُّ" replace="مّْتُّ"/>
+<processor match="نْ تِّ" replace="مّْتِّ"/>
+<processor match="نْ تًّ" replace="مّْتًّ"/>
+<processor match="نْ تٍّ" replace="مّْتٍّ"/>
+<processor match="نْ تٌّ" replace="مّْتٌّ"/>
+<processor match="نْتَ" replace="مّْتَ"/>
+<processor match="نْتُ" replace="مّْتُ"/>
+<processor match="نْتِ" replace="مّْتِ"/>
+<processor match="نْتً" replace="مّْتً"/>
+<processor match="نْتٍ" replace="مّْتٍ"/>
+<processor match="نْتٌ" replace="مّْتٌ"/>
+<processor match="نْتَّ" replace="مّْتَّ"/>
+<processor match="نْتُّ" replace="مّْتُّ"/>
+<processor match="نْتِّ" replace="مّْتِّ"/>
+<processor match="نْتًّ" replace="مّْتًّ"/>
+<processor match="نْتٍّ" replace="مّْتٍّ"/>
+<processor match="نْتٌّ" replace="مّْتٌّ"/>
+<processor match="نْ ضَ" replace="مّْضَ"/>
+<processor match="نْ ضُ" replace="مّْضُ"/>
+<processor match="نْ ضِ" replace="مّْضِ"/>
+<processor match="نْ ضً" replace="مّْضً"/>
+<processor match="نْ ضٍ" replace="مّْضٍ"/>
+<processor match="نْ ضٌ" replace="مّْضٌ"/>
+<processor match="نْ ضَّ" replace="مّْضَّ"/>
+<processor match="نْ ضُّ" replace="مّْضُّ"/>
+<processor match="نْ ضِّ" replace="مّْضِّ"/>
+<processor match="نْ ضًّ" replace="مّْضًّ"/>
+<processor match="نْ ضٍّ" replace="مّْضٍّ"/>
+<processor match="نْ ضٌّ" replace="مّْضٌّ"/>
+<processor match="نْضَ" replace="مّْضَ"/>
+<processor match="نْضُ" replace="مّْضُ"/>
+<processor match="نْضِ" replace="مّْضِ"/>
+<processor match="نْضً" replace="مّْضً"/>
+<processor match="نْضٍ" replace="مّْضٍ"/>
+<processor match="نْضٌ" replace="مّْضٌ"/>
+<processor match="نْضَّ" replace="مّْضَّ"/>
+<processor match="نْضُّ" replace="مّْضُّ"/>
+<processor match="نْضِّ" replace="مّْضِّ"/>
+<processor match="نْضًّ" replace="مّْضًّ"/>
+<processor match="نْضٍّ" replace="مّْضٍّ"/>
+<processor match="نْضٌّ" replace="مّْضٌّ"/>
+<processor match="نْ ظَ" replace="مّْظَ"/>
+<processor match="نْ ظُ" replace="مّْظُ"/>
+<processor match="نْ ظِ" replace="مّْظِ"/>
+<processor match="نْ ظً" replace="مّْظً"/>
+<processor match="نْ ظٍ" replace="مّْظٍ"/>
+<processor match="نْ ظٌ" replace="مّْظٌ"/>
+<processor match="نْ ظَّ" replace="مّْظَّ"/>
+<processor match="نْ ظُّ" replace="مّْظُّ"/>
+<processor match="نْ ظِّ" replace="مّْظِّ"/>
+<processor match="نْ ظًّ" replace="مّْظًّ"/>
+<processor match="نْ ظٍّ" replace="مّْظٍّ"/>
+<processor match="نْ ظٌّ" replace="مّْظٌّ"/>
+<processor match="نْظَ" replace="مّْظَ"/>
+<processor match="نْظُ" replace="مّْظُ"/>
+<processor match="نْظِ" replace="مّْظِ"/>
+<processor match="نْظً" replace="مّْظً"/>
+<processor match="نْظٍ" replace="مّْظٍ"/>
+<processor match="نْظٌ" replace="مّْظٌ"/>
+<processor match="نْظَّ" replace="مّْظَّ"/>
+<processor match="نْظُّ" replace="مّْظُّ"/>
+<processor match="نْظِّ" replace="مّْظِّ"/>
+<processor match="نْظًّ" replace="مّْظًّ"/>
+<processor match="نْظٍّ" replace="مّْظٍّ"/>
+<processor match="نْظٌّ" replace="مّْظٌّ"/>
+<processor match="ً صَ" replace="َمّْصَ"/>
+<processor match="ً صُ" replace="َمّْصُ"/>
+<processor match="ً صِ" replace="َمّْصِ"/>
+<processor match="ٍ صَ" replace="ِمّْصَ"/>
+<processor match="ٍ صُ" replace="ِمّْصُ"/>
+<processor match="ٍ صِ" replace="ِمّْصِ"/>
+<processor match="ٌ صَ" replace="ُمّْصَ"/>
+<processor match="ٌ صُ" replace="ُمّْصُ"/>
+<processor match="ٌ صِ" replace="ُمّْصِ"/>
+<!--Al-Ekhfaa_Tanween-------->
+<processor match="ًا صَ" replace="َمّْصَ"/>
+<processor match="ًا صُ" replace="َمّْصُ"/>
+<processor match="ًا صِ" replace="َمّْصِ"/>
+<processor match="ٍا صَ" replace="ِمّْصَ"/>
+<processor match="ٍا صُ" replace="ِمّْصُ"/>
+<processor match="ٍا صِ" replace="ِمّْصِ"/>
+<processor match="ٌا صَ" replace="ُمّْصَ"/>
+<processor match="ٌا صُ" replace="ُمّْصُ"/>
+<processor match="ٌا صِ" replace="ُمّْصِ"/>
+<processor match="ً ذَ" replace="َمّْذَ"/>
+<processor match="ً ذُ" replace="َمّْذُ"/>
+<processor match="ً ذِ" replace="َمّْذِ"/>
+<processor match="ٍ ذَ" replace="ِمّْذَ"/>
+<processor match="ٍ ذُ" replace="ِمّْذُ"/>
+<processor match="ٍ ذِ" replace="ِمّْذِ"/>
+<processor match="ٌ ذَ" replace="ُمّْذَ"/>
+<processor match="ٌ ذُ" replace="ُمّْذُ"/>
+<processor match="ٌ ذِ" replace="ُمّْذِ"/>
+<processor match="ًا ذَ" replace="َمّْذَ"/>
+<processor match="ًا ذُ" replace="َمّْذُ"/>
+<processor match="ًا ذِ" replace="َمّْذِ"/>
+<processor match="ٍا ذَ" replace="ِمّْذَ"/>
+<processor match="ٍا ذُ" replace="ِمّْذُ"/>
+<processor match="ٍا ذِ" replace="ِمّْذِ"/>
+<processor match="ٌا ذَ" replace="ُمّْذَ"/>
+<processor match="ٌا ذُ" replace="ُمّْذُ"/>
+<processor match="ٌا ذِ" replace="ُمّْذِ"/>
+<processor match="ً ثَ" replace="َمّْثَ"/>
+<processor match="ً ثُ" replace="َمّْثُ"/>
+<processor match="ً ثِ" replace="َمّْثِ"/>
+<processor match="ٍ ثَ" replace="ِمّْثَ"/>
+<processor match="ٍ ثُ" replace="ِمّْثُ"/>
+<processor match="ٍ ثِ" replace="ِمّْثِ"/>
+<processor match="ٌ ثَ" replace="ُمّْثَ"/>
+<processor match="ٌ ثُ" replace="ُمّْثُ"/>
+<processor match="ٌ ثِ" replace="ُمّْثِ"/>
+<processor match="ًا ثَ" replace="َمّْثَ"/>
+<processor match="ًا ثُ" replace="َمّْثُ"/>
+<processor match="ًا ثِ" replace="َمّْثِ"/>
+<processor match="ٍا ثَ" replace="ِمّْثَ"/>
+<processor match="ٍا ثُ" replace="ِمّْثُ"/>
+<processor match="ٍا ثِ" replace="ِمّْثِ"/>
+<processor match="ٌا ثَ" replace="ُمّْثَ"/>
+<processor match="ٌا ثُ" replace="ُمّْثُ"/>
+<processor match="ٌا ثِ" replace="ُمّْثِ"/>
+<processor match="ً كَ" replace="َمّْكَ"/>
+<processor match="ً كُ" replace="َمّْكُ"/>
+<processor match="ً كِ" replace="َمّْكِ"/>
+<processor match="ٍ كَ" replace="ِمّْكَ"/>
+<processor match="ٍ كُ" replace="ِمّْكُ"/>
+<processor match="ٍ كِ" replace="ِمّْكِ"/>
+<processor match="ٌ كَ" replace="ُمّْكَ"/>
+<processor match="ٌ كُ" replace="ُمّْكُ"/>
+<processor match="ٌ كِ" replace="ُمّْكِ"/>
+<processor match="ًا كَ" replace="َمّْكَ"/>
+<processor match="ًا كُ" replace="َمّْكُ"/>
+<processor match="ًا كِ" replace="َمّْكِ"/>
+<processor match="ٍا كَ" replace="ِمّْكَ"/>
+<processor match="ٍا كُ" replace="ِمّْكُ"/>
+<processor match="ٍا كِ" replace="ِمّْكِ"/>
+<processor match="ٌا كَ" replace="ُمّْكَ"/>
+<processor match="ٌا كُ" replace="ُمّْكُ"/>
+<processor match="ٌا كِ" replace="ُمّْكِ"/>
+<processor match="ً جَ" replace="َمّْجَ"/>
+<processor match="ً جُ" replace="َمّْجُ"/>
+<processor match="ً جِ" replace="َمّْجِ"/>
+<processor match="ٍ جَ" replace="ِمّْجَ"/>
+<processor match="ٍ جُ" replace="ِمّْجُ"/>
+<processor match="ٍ جِ" replace="ِمّْجِ"/>
+<processor match="ٌ جَ" replace="ُمّْجَ"/>
+<processor match="ٌ جُ" replace="ُمّْجُ"/>
+<processor match="ٌ جِ" replace="ُمّْجِ"/>
+<processor match="ًا جَ" replace="َمّْجَ"/>
+<processor match="ًا جُ" replace="َمّْجُ"/>
+<processor match="ًا جِ" replace="َمّْجِ"/>
+<processor match="ٍا جَ" replace="ِمّْجَ"/>
+<processor match="ٍا جُ" replace="ِمّْجُ"/>
+<processor match="ٍا جِ" replace="ِمّْجِ"/>
+<processor match="ٌا جَ" replace="ُمّْجَ"/>
+<processor match="ٌا جُ" replace="ُمّْجُ"/>
+<processor match="ٌا جِ" replace="ُمّْجِ"/>
+<processor match="ً شَ" replace="َمّْشَ"/>
+<processor match="ً شُ" replace="َمّْشُ"/>
+<processor match="ً شِ" replace="َمّْشِ"/>
+<processor match="ٍ شَ" replace="ِمّْشَ"/>
+<processor match="ٍ شُ" replace="ِمّْشُ"/>
+<processor match="ٍ شِ" replace="ِمّْشِ"/>
+<processor match="ٌ شَ" replace="ُمّْشَ"/>
+<processor match="ٌ شُ" replace="ُمّْشُ"/>
+<processor match="ٌ شِ" replace="ُمّْشِ"/>
+<processor match="ًا شَ" replace="َمّْشَ"/>
+<processor match="ًا شُ" replace="َمّْشُ"/>
+<processor match="ًا شِ" replace="َمّْشِ"/>
+<processor match="ٍا شَ" replace="ِمّْشَ"/>
+<processor match="ٍا شُ" replace="ِمّْشُ"/>
+<processor match="ٍا شِ" replace="ِمّْشِ"/>
+<processor match="ٌا شَ" replace="ُمّْشَ"/>
+<processor match="ٌا شُ" replace="ُمّْشُ"/>
+<processor match="ٌا شِ" replace="ُمّْشِ"/>
+<processor match="ً قَ" replace="َمّْقَ"/>
+<processor match="ً قُ" replace="َمّْقُ"/>
+<processor match="ً قِ" replace="َمّْقِ"/>
+<processor match="ٍ قَ" replace="ِمّْقَ"/>
+<processor match="ٍ قُ" replace="ِمّْقُ"/>
+<processor match="ٍ قِ" replace="ِمّْقِ"/>
+<processor match="ٌ قَ" replace="ُمّْقَ"/>
+<processor match="ٌ قُ" replace="ُمّْقُ"/>
+<processor match="ٌ قِ" replace="ُمّْقِ"/>
+<processor match="ًا قَ" replace="َمّْقَ"/>
+<processor match="ًا قُ" replace="َمّْقُ"/>
+<processor match="ًا قِ" replace="َمّْقِ"/>
+<processor match="ٍا قَ" replace="ِمّْقَ"/>
+<processor match="ٍا قُ" replace="ِمّْقُ"/>
+<processor match="ٍا قِ" replace="ِمّْقِ"/>
+<processor match="ٌا قَ" replace="ُمّْقَ"/>
+<processor match="ٌا قُ" replace="ُمّْقُ"/>
+<processor match="ٌا قِ" replace="ُمّْقِ"/>
+<processor match="ً سَ" replace="َمّْسَ"/>
+<processor match="ً سُ" replace="َمّْسُ"/>
+<processor match="ً سِ" replace="َمّْسِ"/>
+<processor match="ٍ سَ" replace="ِمّْسَ"/>
+<processor match="ٍ سُ" replace="ِمّْسُ"/>
+<processor match="ٍ سِ" replace="ِمّْسِ"/>
+<processor match="ٌ سَ" replace="ُمّْسَ"/>
+<processor match="ٌ سُ" replace="ُمّْسُ"/>
+<processor match="ٌ سِ" replace="ُمّْسِ"/>
+<processor match="ًا سَ" replace="َمّْسَ"/>
+<processor match="ًا سُ" replace="َمّْسُ"/>
+<processor match="ًا سِ" replace="َمّْسِ"/>
+<processor match="ٍا سَ" replace="ِمّْسَ"/>
+<processor match="ٍا سُ" replace="ِمّْسُ"/>
+<processor match="ٍا سِ" replace="ِمّْسِ"/>
+<processor match="ٌا سَ" replace="ُمّْسَ"/>
+<processor match="ٌا سُ" replace="ُمّْسُ"/>
+<processor match="ٌا سِ" replace="ُمّْسِ"/>
+<processor match="ً دَ" replace="َمّْدَ"/>
+<processor match="ً دُ" replace="َمّْدُ"/>
+<processor match="ً دِ" replace="َمّْدِ"/>
+<processor match="ٍ دَ" replace="ِمّْدَ"/>
+<processor match="ٍ دُ" replace="ِمّْدُ"/>
+<processor match="ٍ دِ" replace="ِمّْدِ"/>
+<processor match="ٌ دَ" replace="ُمّْدَ"/>
+<processor match="ٌ دُ" replace="ُمّْدُ"/>
+<processor match="ٌ دِ" replace="ُمّْدِ"/>
+<processor match="ًا دَ" replace="َمّْدَ"/>
+<processor match="ًا دُ" replace="َمّْدُ"/>
+<processor match="ًا دِ" replace="َمّْدِ"/>
+<processor match="ٍا دَ" replace="ِمّْدَ"/>
+<processor match="ٍا دُ" replace="ِمّْدُ"/>
+<processor match="ٍا دِ" replace="ِمّْدِ"/>
+<processor match="ٌا دَ" replace="ُمّْدَ"/>
+<processor match="ٌا دُ" replace="ُمّْدُ"/>
+<processor match="ٌا دِ" replace="ُمّْدِ"/>
+<processor match="ً طَ" replace="َمّْطَ"/>
+<processor match="ً طُ" replace="َمّْطُ"/>
+<processor match="ً طِ" replace="َمّْطِ"/>
+<processor match="ٍ طَ" replace="ِمّْطَ"/>
+<processor match="ٍ طُ" replace="ِمّْطُ"/>
+<processor match="ٍ طِ" replace="ِمّْطِ"/>
+<processor match="ٌ طَ" replace="ُمّْطَ"/>
+<processor match="ٌ طُ" replace="ُمّْطُ"/>
+<processor match="ٌ طِ" replace="ُمّْطِ"/>
+<processor match="ًا طَ" replace="َمّْطَ"/>
+<processor match="ًا طُ" replace="َمّْطُ"/>
+<processor match="ًا طِ" replace="َمّْطِ"/>
+<processor match="ٍا طَ" replace="ِمّْطَ"/>
+<processor match="ٍا طُ" replace="ِمّْطُ"/>
+<processor match="ٍا طِ" replace="ِمّْطِ"/>
+<processor match="ٌا طَ" replace="ُمّْطَ"/>
+<processor match="ٌا طُ" replace="ُمّْطُ"/>
+<processor match="ٌا طِ" replace="ُمّْطِ"/>
+<processor match="ً زَ" replace="َمّْزَ"/>
+<processor match="ً زُ" replace="َمّْزُ"/>
+<processor match="ً زِ" replace="َمّْزِ"/>
+<processor match="ٍ زَ" replace="ِمّْزَ"/>
+<processor match="ٍ زُ" replace="ِمّْزُ"/>
+<processor match="ٍ زِ" replace="ِمّْزِ"/>
+<processor match="ٌ زَ" replace="ُمّْزَ"/>
+<processor match="ٌ زُ" replace="ُمّْزُ"/>
+<processor match="ٌ زِ" replace="ُمّْزِ"/>
+<processor match="ًا زَ" replace="َمّْزَ"/>
+<processor match="ًا زُ" replace="َمّْزُ"/>
+<processor match="ًا زِ" replace="َمّْزِ"/>
+<processor match="ٍا زَ" replace="ِمّْزَ"/>
+<processor match="ٍا زُ" replace="ِمّْزُ"/>
+<processor match="ٍا زِ" replace="ِمّْزِ"/>
+<processor match="ٌا زَ" replace="ُمّْزَ"/>
+<processor match="ٌا زُ" replace="ُمّْزُ"/>
+<processor match="ٌا زِ" replace="ُمّْزِ"/>
+<processor match="ً فَ" replace="َمّْفَ"/>
+<processor match="ً فُ" replace="َمّْفُ"/>
+<processor match="ً فِ" replace="َمّْفِ"/>
+<processor match="ٍ فَ" replace="ِمّْفَ"/>
+<processor match="ٍ فُ" replace="ِمّْفُ"/>
+<processor match="ٍ فِ" replace="ِمّْفِ"/>
+<processor match="ٌ فَ" replace="ُمّْفَ"/>
+<processor match="ٌ فُ" replace="ُمّْفُ"/>
+<processor match="ٌ فِ" replace="ُمّْفِ"/>
+<processor match="ًا فَ" replace="َمّْفَ"/>
+<processor match="ًا فُ" replace="َمّْفُ"/>
+<processor match="ًا فِ" replace="َمّْفِ"/>
+<processor match="ٍا فَ" replace="ِمّْفَ"/>
+<processor match="ٍا فُ" replace="ِمّْفُ"/>
+<processor match="ٍا فِ" replace="ِمّْفِ"/>
+<processor match="ٌا فَ" replace="ُمّْفَ"/>
+<processor match="ٌا فُ" replace="ُمّْفُ"/>
+<processor match="ٌا فِ" replace="ُمّْفِ"/>
+<processor match="ً تَ" replace="َمّْتَ"/>
+<processor match="ً تُ" replace="َمّْتُ"/>
+<processor match="ً تِ" replace="َمّْتِ"/>
+<processor match="ٍ تَ" replace="ِمّْتَ"/>
+<processor match="ٍ تُ" replace="ِمّْتُ"/>
+<processor match="ٍ تِ" replace="ِمّْتِ"/>
+<processor match="ٌ تَ" replace="ُمّْتَ"/>
+<processor match="ٌ تُ" replace="ُمّْتُ"/>
+<processor match="ٌ تِ" replace="ُمّْتِ"/>
+<processor match="ًا تَ" replace="َمّْتَ"/>
+<processor match="ًا تُ" replace="َمّْتُ"/>
+<processor match="ًا تِ" replace="َمّْتِ"/>
+<processor match="ٍا تَ" replace="ِمّْتَ"/>
+<processor match="ٍا تُ" replace="ِمّْتُ"/>
+<processor match="ٍا تِ" replace="ِمّْتِ"/>
+<processor match="ٌا تَ" replace="ُمّْتَ"/>
+<processor match="ٌا تُ" replace="ُمّْتُ"/>
+<processor match="ٌا تِ" replace="ُمّْتِ"/>
+<processor match="ً ضَ" replace="َمّْضَ"/>
+<processor match="ً ضُ" replace="َمّْضُ"/>
+<processor match="ً ضِ" replace="َمّْضِ"/>
+<processor match="ٍ ضَ" replace="ِمّْضَ"/>
+<processor match="ٍ ضُ" replace="ِمّْضُ"/>
+<processor match="ٍ ضِ" replace="ِمّْضِ"/>
+<processor match="ٌ ضَ" replace="ُمّْضَ"/>
+<processor match="ٌ ضُ" replace="ُمّْضُ"/>
+<processor match="ٌ ضِ" replace="ُمّْضِ"/>
+<processor match="ًا ضَ" replace="َمّْضَ"/>
+<processor match="ًا ضُ" replace="َمّْضُ"/>
+<processor match="ًا ضِ" replace="َمّْضِ"/>
+<processor match="ٍا ضَ" replace="ِمّْضَ"/>
+<processor match="ٍا ضُ" replace="ِمّْضُ"/>
+<processor match="ٍا ضِ" replace="ِمّْضِ"/>
+<processor match="ٌا ضَ" replace="ُمّْضَ"/>
+<processor match="ٌا ضُ" replace="ُمّْضُ"/>
+<processor match="ٌا ضِ" replace="ُمّْضِ"/>
+<processor match="ً ظَ" replace="َمّْظَ"/>
+<processor match="ً ظُ" replace="َمّْظُ"/>
+<processor match="ً ظِ" replace="َمّْظِ"/>
+<processor match="ٍ ظَ" replace="ِمّْظَ"/>
+<processor match="ٍ ظُ" replace="ِمّْظُ"/>
+<processor match="ٍ ظِ" replace="ِمّْظِ"/>
+<processor match="ٌ ظَ" replace="ُمّْظَ"/>
+<processor match="ٌ ظُ" replace="ُمّْظُ"/>
+<processor match="ٌ ظِ" replace="ُمّْظِ"/>
+<processor match="ًا ظَ" replace="َمّْظَ"/>
+<processor match="ًا ظُ" replace="َمّْظُ"/>
+<processor match="ًا ظِ" replace="َمّْظِ"/>
+<processor match="ٍا ظَ" replace="ِمّْظَ"/>
+<processor match="ٍا ظُ" replace="ِمّْظُ"/>
+<processor match="ٍا ظِ" replace="ِمّْظِ"/>
+<processor match="ٌا ظَ" replace="ُمّْظَ"/>
+<processor match="ٌا ظُ" replace="ُمّْظُ"/>
+<processor match="ٌا ظِ" replace="ُمّْظِ"/>
+<!--Al-Eqlaab-------->
+<processor match="نْ بُ" replace="مممبُ"/>
+<processor match="نْ بِ" replace="مممبِ"/>
+<processor match="نْ بً" replace="مممبً"/>
+<processor match="نْ بٍ" replace="مممبٍ"/>
+<processor match="نْ بٌ" replace="مممبٌ"/>
+<processor match="نْ بَّ" replace="مممبَّ"/>
+<processor match="نْ بُّ" replace="مممبُّ"/>
+<processor match="نْ بِّ" replace="مممبِّ"/>
+<processor match="نْ بًّ" replace="مممبًّ"/>
+<processor match="نْ بٍّ" replace="مممبٍّ"/>
+<processor match="نْ بٌّ" replace="مممبٌّ"/>
+<processor match="نْبَ" replace="مممبَ"/>
+<processor match="نْبُ" replace="مممبُ"/>
+<processor match="نْبِ" replace="مممبِ"/>
+<processor match="نْبً" replace="مممبً"/>
+<processor match="نْبٍ" replace="مممبٍ"/>
+<processor match="نْبٌ" replace="مممبٌ"/>
+<processor match="نْبَّ" replace="مممبَّ"/>
+<processor match="نْبُّ" replace="مممبُّ"/>
+<processor match="نْبِّ" replace="مممبِّ"/>
+<processor match="نْبًّ" replace="مممبًّ"/>
+<processor match="نْبٍّ" replace="مممبٍّ"/>
+<processor match="نْبٌّ" replace="مممبٌّ"/>
+<processor match="مْ بَ" replace="مّْبَ"/>
+<processor match="مْ بُ" replace="مّْبُ"/>
+<processor match="مْ بِ" replace="مّْبِ"/>
+<processor match="مْ بً" replace="مْبً"/>
+<processor match="مْ بٍ" replace="مْبٍ"/>
+<processor match="مْ بٌ" replace="مْبٌ"/>
+<processor match="مْ بَّ" replace="مْبَّ"/>
+<processor match="مْ بُّ" replace="مْبُّ"/>
+<processor match="مْ بِّ" replace="مْبِّ"/>
+<processor match="مْ بًّ" replace="مْبًّ"/>
+<processor match="مْ بٍّ" replace="مْبٍّ"/>
+<processor match="مْ بٌّ" replace="وْبٌّ"/>
+<processor match="مْبَ" replace="وْبَ"/>
+<processor match="مْبُ" replace="مْبُ"/>
+<processor match="مْبِ" replace="مْبِ"/>
+<processor match="مْبً" replace="وْبً"/>
+<processor match="مْبٍ" replace="مْبٍ"/>
+<processor match="مْبٌ" replace="وْبٌ"/>
+<processor match="مْبَّ" replace="وْبَّ"/>
+<processor match="مْبُّ" replace="وْبُّ"/>
+<processor match="مْبِّ" replace="وْبِّ"/>
+<processor match="مْبًّ" replace="وْبًّ"/>
+<processor match="مْبٍّ" replace="وْبٍّ"/>
+<processor match="مْبٌّ" replace="وْبٌّ"/>
+<processor match="مْ مَ" replace="ممممَ"/>
+<processor match="مْ مُ" replace="ممممُ"/>
+<processor match="مْ مِ" replace="ممممِ"/>
+<processor match="مْ مً" replace="ممممً"/>
+<processor match="مْ مٍ" replace="ممممٍ"/>
+<processor match="مْ مٌ" replace="ممممٌ"/>
+<processor match="مْ مَّ" replace="ممممَّ"/>
+<processor match="مْ مُّ" replace="ممممُّ"/>
+<processor match="مْ مِّ" replace="ممممِّ"/>
+<processor match="مْ مًّ" replace="ممممًّ"/>
+<processor match="مْ مٍّ" replace="ممممٍّ"/>
+<processor match="مْ مٌّ" replace="ممممٌّ"/>
+<processor match="مْمَ" replace="ممممَ"/>
+<processor match="مْمُ" replace="ممممُ"/>
+<processor match="مْمِ" replace="ممممِ"/>
+<processor match="مْمً" replace="ممممً"/>
+<processor match="مْمٍ" replace="ممممٍ"/>
+<processor match="مْمٌ" replace="ممممٌ"/>
+<processor match="مْمَّ" replace="ممممَّ"/>
+<processor match="مْمُّ" replace="ممممُّ"/>
+<processor match="مْمِّ" replace="ممممِّ"/>
+<processor match="مْمًّ" replace="ممممًّ"/>
+<processor match="مْمٍّ" replace="ممممٍّ"/>
+<processor match="مْمٌّ" replace="ممممٌّ"/>
+<processor match="ً بَ" replace="َمّْبَ"/>
+<processor match="ً بُ" replace="َمّْبُ"/>
+<processor match="ً بِ" replace="َمّْبِ"/>
+<processor match="ٍ بَ" replace="ِمّْبَ"/>
+<processor match="ٍ بُ" replace="ِمّْبُ"/>
+<processor match="ٍ بِ" replace="ِمّْبِ"/>
+<processor match="ٌ بَ" replace="ُمّْبَ"/>
+<processor match="ٌ بُ" replace="ُمّْبُ"/>
+<processor match="ٌ بِ" replace="ُمّْبُ"/>
+<processor match="ًا بَ" replace="َمّْبَ"/>
+<processor match="ًا بُ" replace="َمّْبُ"/>
+<processor match="ًا بِ" replace="َمّْبُ"/>
+<processor match="ٍا بَ" replace="ِمّْبَ"/>
+<processor match="ٍا بُ" replace="ِمّْبُ"/>
+<processor match="ٍا بِ" replace="ِمّْبِ"/>
+<processor match="ٌا بَ" replace="ُمّْبَ"/>
+<processor match="ٌا بُ" replace="ُمّْبُ"/>
+<processor match="ٌا بِ" replace="ُمّْبِ"/>
+<!--Additional---->
+<processor match="ى ا" replace=""/>
+<processor match="نِ امْ" replace="نِمْ"/>
+<processor match="و ا" replace="و"/>
+<processor match="جُّ" replace="جج"/>
+<processor match="دًى وَ" replace="دًوَ"/>
+<processor match="لَ ا" replace="لَ"/>
+<processor match="يًا بَ" replace="يًممبَ"/>
+<processor match="اتَّ" replace="تَّ"/>
+<processor match="مُ ابْ" replace="مُبْ"/>
+<processor match="دْ" replace="دّْ"/>
+<processor match="مًّى" replace="مًّنْ"/>
+<processor match="ةُّي" replace="تُيّْ"/>
+<processor match="ةُم" replace="تُمّ"/>
+<processor match="يُنَبِّئُكَ" replace="يُنَبِّئُوكَ"/>
+<processor match="جِ " replace="جْ "/>
+<processor match="تَوَلَّوْا" replace="تَوَلَّوْ"/>
+<processor match="وَهُدًا وَ" replace="وَهُدًوَّ"/>
+<processor match="لَوِ اسْ" replace="لَوِسْ"/>
+<processor match="وُا" replace="وُو"/>
+<processor match="دًا  وَ" replace="دَوَّ"/>
+<processor match="الضَّالِّينَ" replace="الضَّالْلْيْيْنَ"/>
+<processor match="ِ امّْ" replace="ِ مّْ"/>
+<processor match="مَّ اهْ" replace="مَّهْ"/>
+<processor match="ّّ" replace="ّ"/>
+<processor match="هَا اسْ" replace="هَاسْ"/>
+<processor match="أُولِي" replace="أُلِي"/>
+<processor match="امْ" replace="مْ"/>
+<processor match="ًامّْقَ" replace="َمّْقَ"/>
+<processor match="ابّْ" replace="ابْ"/>
+<processor match="اجّْ" replace="اجْ"/>
+<processor match="اطّْ" replace="اطْ"/>
+<processor match="ادّْ" replace="ادْ"/>
+<processor match="اقّْ" replace="اقْ"/>
+<processor match="َّبّْ" replace="َّبْ"/>
+<processor match="ِ اهْ" replace="ِ هْ"/>
+<processor match="ئُ" replace="ئُو"/>
+<processor match="لْ" replace="ل"/>
+<processor match="ًّمّْ" replace="َّ مّْ"/>
+<processor match="ٍّمّْ" replace="ِّمّْ"/>
+<processor match="ٌّمّْ" replace="ُّمّْ"/>
+<processor match="ُ اسْ" replace="ُسْ"/>
+<processor match="ةِّوَّ" replace="تِيْوَ"/>
+<!--End---->
+</processors>
