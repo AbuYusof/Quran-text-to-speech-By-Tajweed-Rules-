@@ -5,6 +5,7 @@ Added the ability to read the text-to-speech engine of Google or any text-to-spe
 
 These rules programmed in the XML language are imported into any application that has this feature, as it reconfigures the Quranic verses according to the provisions of intonation, and sends the text ready to the text-to-speech engine to read it, as the rules of intonation were relied upon in that.
 This project is still experimental and the rules can be re-edited according to what is correct if there are any shortcomings or future development.
+
 I recommend using the T2S app on Android, Libra, or any app that gives the option to use search and replace rules and RegExp.
 
 the code License by GNU General Public License is a free, copyleft license for
@@ -43,6 +44,7 @@ https://t.me/AyatCh/72
 It includes the majority of intonation rules with the provisions of stopping and stopping where it stops
 speaking of those rules
 
-
+important note:
+This code is free and experimental onl, and we are not responsible for any damages or errors, You can experience and help us improve it by notifying us of problems and fixes. You can also modify it while preserving the rights and publish what you develop for free.
 Regards...
 
