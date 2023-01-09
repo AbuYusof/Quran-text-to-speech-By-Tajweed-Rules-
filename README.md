@@ -8,7 +8,7 @@ This project is still experimental and the rules can be re-edited according to w
 
 I recommend using the T2S app on Android, Librera, tts reader, or any app that gives the option to use search and replace rules and RegExp.
 
-the code License by GNU General Public License is a free, copyleft license for
+this a code License by GNU General Public License is a free, copyleft license for
 software and other kinds of works.
 
 It is recommended that this code be imported into the Android application:
