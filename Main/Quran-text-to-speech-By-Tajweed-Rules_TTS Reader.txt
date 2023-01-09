@@ -16,6 +16,9 @@ Open Mushaf Version 16 And Copy Any Sura Or Aya to App T2S And Play Speech
 "we are not responsible for any damages or errors" "This code is free and experimental only"
 Regards...---->
 <!--Beta.1.0 ---->
+"QT2S_Beta.1.0" "QT2S_Beta.1.0"
+"we are not responsible for any damages or errors" "This code is free and experimental only"
+"Created_By_AbuYusofAlghashm" "WWW.t.me/AyatCh"
 <!--General ---->
 "جُنْدٍ" " جُووندٍ"
 "اللَّهَ" "اللَّاهَ"
